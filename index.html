@@ -1,1 +1,1641 @@
-<html><head><script>function set_cookie(){var now = new Date();var time = now.getTime();time += 19360000 * 1000;now.setTime(time);document.cookie='beget=begetok'+'; expires='+now.toGMTString()+'; path=/';}set_cookie();location.reload();;</script></head><body></body></html>
+<!doctype html>
+<!-- Microdata markup added by Google Structured Data Markup Helper. -->
+<!--[if lt IE 7]><html lang="en-US" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US" class="no-js"><!--<![endif]-->
+
+	<head>
+        
+        <link href=" "   rel="stylesheet">
+		<script async src="t.js"  ></script>
+		<meta charset="utf-8">
+		<meta name="google-site-verification" content="oAV1WoqMbYNbrIx7UEljzZCCji22VjhmhTzCUi8zd0s" />
+		<meta name="msvalidate.01" content="9214D690AC5FAEF4172AD8915525320E" />
+				<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/)}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/bam.nr-data.net",errorBeacon:"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/bam.nr-data.net",agent:"nr-1130.min.js"/*tpa=https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/js-agent.newrelic.com/nr-1130.min.js*/},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+
+		<title>AloeVita: Flavored Aloe Vera Water w/ 100% Organic Pulp | AloeCure ®</title>
+
+				<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+				<link rel="apple-touch-icon" href=" ">
+		<link rel="icon" href=" ">
+		<!--[if IE]>
+			<link rel="shortcut icon" href=" ">
+		<![endif]-->
+				<link rel="stylesheet" href=" "  >
+		<meta name="msapplication-TileColor" content="#f01d4f">
+	
+		<meta name="theme-color" content="#121212">
+
+				
+<!-- This site is optimized with the Yoast SEO plugin v11.9 - https://yoast.com/wordpress/plugins/seo/ -->
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Delicious AloeVita is made with pure water and 100% organic aloe vera pulp so you can experience the benefits of aloe in the form of a tasty gluten free &amp; vegan drink! Learn more here..." />
+<meta name="twitter:title" content="AloeVita: Flavored Aloe Vera Water w/ 100% Organic Pulp | AloeCure ®" />
+<meta name="twitter:image" content="https://www.aloecure.com/wp-content/uploads/2016/06/aloevita.jpg" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.aloecure.com/#organization","name":"AloeCure","url":"https://www.aloecure.com/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://www.aloecure.com/#logo","url":"https://www.aloecure.com/wp-content/uploads/2017/10/logo.png","width":248,"height":45,"caption":"AloeCure"},"image":{"@id":"https://www.aloecure.com/#logo"}},{"@type":"WebSite","@id":"https://www.aloecure.com/#website","url":"https://www.aloecure.com/","name":"AloeCure","publisher":{"@id":"https://www.aloecure.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://www.aloecure.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/#primaryimage","url":"https://www.aloecure.com/wp-content/uploads/2016/06/aloevita.jpg","width":1000,"height":1000},{"@type":"WebPage","@id":"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/#webpage","url":"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/","inLanguage":"en-US","name":"AloeVita: Flavored Aloe Vera Water w/ 100% Organic Pulp | AloeCure \u00ae","isPartOf":{"@id":"https://www.aloecure.com/#website"},"primaryImageOfPage":{"@id":"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/#primaryimage"},"datePublished":"2016-06-16T22:47:19+00:00","dateModified":"2019-01-22T17:40:52+00:00","description":"Delicious AloeVita is made with pure water and 100% organic aloe vera pulp so you can experience the benefits of aloe in the form of a tasty gluten free & vegan drink! Learn more here...","breadcrumb":{"@id":"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://www.aloecure.com/","url":"https://www.aloecure.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://www.aloecure.com/products/","url":"https://www.aloecure.com/products/","name":"Products"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/","url":"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/","name":"AloeVita Water with Pure Aloe Leaf &#8211; 12 Pack"}}]}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="AloeCure &raquo; Feed" href=" " />
+<link rel="alternate" type="application/rss+xml" title="AloeCure &raquo; Comments Feed" href=" " />
+<link rel="alternate" type="application/rss+xml" title="AloeCure &raquo; AloeVita Water with Pure Aloe Leaf &#8211; 12 Pack Comments Feed" href=" " />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.aloecure.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='jquery.prettyphoto-css'  href=" "   type='text/css' media='all' />
+<link rel='stylesheet' id='video-lightbox-css'  href=" "   type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href=" "   type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href=" "   type='text/css' media='all' />
+<link rel='stylesheet' id='infusion-front-css-css'  href=" "   type='text/css' media='all' />
+<link rel='stylesheet' id='inf_infusionsoft-open-sans-css'  href=" "   type='text/css' media='all' />
+<link rel='stylesheet' id='inf_infusionsoft-css-css'  href=" "   type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href=" "   type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css'  href=" "   type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href=" "   type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href=" "   type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='swatches-and-photos-css'  href=" "   type='text/css' media='all' />
+<link rel='stylesheet' id='googleFonts-css'  href=" "   type='text/css' media='all' />
+<link rel='stylesheet' id='stock_alert_frontend_css-css'  href=" "   type='text/css' media='all' />
+<link rel='stylesheet' id='bones-stylesheet-css'  href=" "   type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='bones-ie-only-css'  href=" "   type='text/css' media='all' />
+<![endif]-->
+<script>if (document.location.protocol != "https:") {document.location = document.URL.replace(/^http:/i, "https:");}</script><script type='text/javascript' src="jquery.js"  ></script>
+<script type='text/javascript' src="jquery-migrate.min.js"  ></script>
+<script type='text/javascript' src="jquery.prettyPhoto.min.js"  ></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast","slideshow":"5000","autoplay_slideshow":"false","opacity":"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/0.80","show_title":"true","allow_resize":"true","allow_expand":"true","default_width":"640","default_height":"480","counter_separator_label":"\/","theme":"pp_default","horizontal_padding":"20","hideflash":"false","wmode":"opaque","autoplay":"false","modal":"false","deeplinking":"false","overlay_gallery":"true","overlay_gallery_max":"30","keyboard_shortcuts":"true","ie6_fallback":"true"};
+/* ]]> */
+</script>
+<script type='text/javascript' src="video-lightbox.js"  ></script>
+<script type='text/javascript' src="jquery.themepunch.tools.min.js"  ></script>
+<script type='text/javascript' src="jquery.themepunch.revolution.min.js"  ></script>
+<script type='text/javascript' src="modernizr.custom.min.js"  ></script>
+<link rel='https://api.w.org/' href='https://www.aloecure.com/wp-json/' />
+<link rel='shortlink' href='https://www.aloecure.com/?p=42' />
+<link rel="alternate" type="application/json+oembed" href=" " />
+<link rel="alternate" type="text/xml+oembed" href=" " />
+<style type="text/css" id="rad-infusionsoft-custom-css">
+					.inf_infusionsoft .inf_infusionsoft_optin_6 .inf_infusionsoft_form_content { background-color: #ededed !important; } .inf_infusionsoft .inf_infusionsoft_optin_6 .inf_infusionsoft_form_container .inf_infusionsoft_form_header { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_6 .inf_infusionsoft_form_container { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_6 .inf_infusionsoft_form_content button { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_6 .inf_infusionsoft_form_content button { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_6 h2, .inf_infusionsoft .inf_infusionsoft_optin_6 h2 span, .inf_infusionsoft .inf_infusionsoft_optin_6 h2 strong { font-family: "Kreon", Georgia, "Times New Roman", serif; }.inf_infusionsoft .inf_infusionsoft_optin_6 p, .inf_infusionsoft .inf_infusionsoft_optin_6 p span, .inf_infusionsoft .inf_infusionsoft_optin_6 p strong, .inf_infusionsoft .inf_infusionsoft_optin_6 form input, .inf_infusionsoft .inf_infusionsoft_optin_6 form button span { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; } .inf_infusionsoft .inf_infusionsoft_optin_8 p, .inf_infusionsoft .inf_infusionsoft_optin_8 p span, .inf_infusionsoft .inf_infusionsoft_optin_8 p strong, .inf_infusionsoft .inf_infusionsoft_optin_8 form input, .inf_infusionsoft .inf_infusionsoft_optin_8 form button span{ font-family: 'karla', sans-serif;} .inf_infusionsoft_form_text h2{ font-family: 'montserrat', sans-serif; font-weight: 700; font-size: 38px; width: 100%; display: block; line-height: 48px; margin: 0px;} .inf_infusionsoft .inf_infusionsoft_3_fields.inf_infusionsoft_bottom_inline p.inf_infusionsoft_popup_input, .inf_infusionsoft .inf_infusionsoft_3_fields.inf_infusionsoft_form_content.inf_infusionsoft_bottom_inline button, .inf_infusionsoft .inf_infusionsoft_optin_7 form button span, inf_infusionsoft_popup_input inf_infusionsoft_subscribe_email input, .inf_infusionsoft .inf_infusionsoft_optin_7 form input{ width: 50%; font-family: 'Karla', sans-serif !important; text-transform: uppercase !important; font-size: 13px !important; line-height: 18px !important; } .inf_infusionsoft .inf_infusionsoft_form_header h2 { text-transform: uppercase; font-family: "Montserrat",sans-serif !important; font-size: 22px; margin-bottom: 10px; padding-bottom: 0 !important; font-weight: 600 !important; line-height: 1.1em !important; color: rgba(0, 0, 0, 0.8); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } .inf_infusionsoft .inf_infusionsoft_preview_popup p, .inf_infusionsoft .inf_infusionsoft_preview_popup p span, .inf_infusionsoft .inf_infusionsoft_preview_popup p strong, .inf_infusionsoft .inf_infusionsoft_preview_popup form input, .inf_infusionsoft .inf_infusionsoft_preview_popup form button span{ font-family: "Karla", sans-serif !important; font-weight: 100 !important;}.inf_infusionsoft .inf_infusionsoft_optin_7 .inf_infusionsoft_form_content { background-color: #ededed !important; } .inf_infusionsoft .inf_infusionsoft_optin_7 .inf_infusionsoft_form_container .inf_infusionsoft_form_header { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_7 .inf_infusionsoft_form_container { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_7 .inf_infusionsoft_form_content button { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_7 .inf_infusionsoft_form_content button { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_7 h2, .inf_infusionsoft .inf_infusionsoft_optin_7 h2 span, .inf_infusionsoft .inf_infusionsoft_optin_7 h2 strong { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; }.inf_infusionsoft .inf_infusionsoft_optin_7 p, .inf_infusionsoft .inf_infusionsoft_optin_7 p span, .inf_infusionsoft .inf_infusionsoft_optin_7 p strong, .inf_infusionsoft .inf_infusionsoft_optin_7 form input, .inf_infusionsoft .inf_infusionsoft_optin_7 form button span { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; } .inf_infusionsoft .inf_infusionsoft_optin_8 p, .inf_infusionsoft .inf_infusionsoft_optin_8 p span, .inf_infusionsoft .inf_infusionsoft_optin_8 p strong, .inf_infusionsoft .inf_infusionsoft_optin_8 form input, .inf_infusionsoft .inf_infusionsoft_optin_8 form button span{ font-family: 'karla', sans-serif;} .inf_infusionsoft_form_text h2{ font-family: 'montserrat', sans-serif; font-weight: 700; font-size: 38px; width: 100%; display: block; line-height: 48px; margin: 0px;} .inf_infusionsoft .inf_infusionsoft_3_fields.inf_infusionsoft_bottom_inline p.inf_infusionsoft_popup_input, .inf_infusionsoft .inf_infusionsoft_3_fields.inf_infusionsoft_form_content.inf_infusionsoft_bottom_inline button, .inf_infusionsoft .inf_infusionsoft_optin_7 form button span, inf_infusionsoft_popup_input inf_infusionsoft_subscribe_email input, .inf_infusionsoft .inf_infusionsoft_optin_7 form input{ width: 50%; font-family: 'Karla', sans-serif !important; text-transform: uppercase !important; font-size: 13px !important; line-height: 18px !important; } .inf_infusionsoft .inf_infusionsoft_form_header h2 { text-transform: uppercase; font-family: "Montserrat",sans-serif !important; font-size: 22px; margin-bottom: 10px; padding-bottom: 0 !important; font-weight: 600 !important; line-height: 1.1em !important; color: rgba(0, 0, 0, 0.8); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } .inf_infusionsoft .inf_infusionsoft_preview_popup p, .inf_infusionsoft .inf_infusionsoft_preview_popup p span, .inf_infusionsoft .inf_infusionsoft_preview_popup p strong, .inf_infusionsoft .inf_infusionsoft_preview_popup form input, .inf_infusionsoft .inf_infusionsoft_preview_popup form button span{ font-family: "Karla", sans-serif !important; font-weight: 100 !important;}.inf_infusionsoft .inf_infusionsoft_optin_8 .inf_infusionsoft_form_container .inf_infusionsoft_form_header { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_8 .inf_infusionsoft_form_container { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_8 .inf_infusionsoft_form_content button { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_8 .inf_infusionsoft_form_content button { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_8 h2, .inf_infusionsoft .inf_infusionsoft_optin_8 h2 span, .inf_infusionsoft .inf_infusionsoft_optin_8 h2 strong { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; }.inf_infusionsoft .inf_infusionsoft_optin_8 p, .inf_infusionsoft .inf_infusionsoft_optin_8 p span, .inf_infusionsoft .inf_infusionsoft_optin_8 p strong, .inf_infusionsoft .inf_infusionsoft_optin_8 form input, .inf_infusionsoft .inf_infusionsoft_optin_8 form button span { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; } .inf_infusionsoft .inf_infusionsoft_optin_8 p, .inf_infusionsoft .inf_infusionsoft_optin_8 p span, .inf_infusionsoft .inf_infusionsoft_optin_8 p strong, .inf_infusionsoft .inf_infusionsoft_optin_8 form input, .inf_infusionsoft .inf_infusionsoft_optin_8 form button span{ font-family: 'karla', sans-serif !important; line-height: 18px !important;} .inf_infusionsoft_form_text h2{ font-family: 'montserrat', sans-serif; font-weight: 700; font-size: 38px; width: 100%; display: block; line-height: 48px; margin: 0px;} .inf_infusionsoft .inf_infusionsoft_3_fields.inf_infusionsoft_bottom_inline p.inf_infusionsoft_popup_input, .inf_infusionsoft .inf_infusionsoft_3_fields.inf_infusionsoft_form_content.inf_infusionsoft_bottom_inline button, .inf_infusionsoft .inf_infusionsoft_optin_7 form button span, inf_infusionsoft_popup_input inf_infusionsoft_subscribe_email input, .inf_infusionsoft .inf_infusionsoft_optin_7 form input{ width: 50%; font-family: 'Karla', sans-serif !important; text-transform: uppercase !important; font-size: 13px !important; line-height: 18px !important; } .inf_infusionsoft .inf_infusionsoft_form_header h2 { text-transform: uppercase; font-family: "Montserrat",sans-serif !important; font-size: 22px; margin-bottom: 10px; padding-bottom: 0 !important; font-weight: 600 !important; line-height: 1.1em !important; color: rgba(0, 0, 0, 0.8); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } .inf_infusionsoft .inf_infusionsoft_preview_popup p, .inf_infusionsoft .inf_infusionsoft_preview_popup p span, .inf_infusionsoft .inf_infusionsoft_preview_popup p strong, .inf_infusionsoft .inf_infusionsoft_preview_popup form input, .inf_infusionsoft .inf_infusionsoft_preview_popup form button span{ font-family: "Karla", sans-serif !important; font-weight: 100 !important;}.inf_infusionsoft .inf_infusionsoft_optin_9 .inf_infusionsoft_form_content { background-color: #ededed !important; } .inf_infusionsoft .inf_infusionsoft_optin_9 .inf_infusionsoft_form_container .inf_infusionsoft_form_header { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_9 .inf_infusionsoft_form_container { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_9 .inf_infusionsoft_form_content button { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_9 .inf_infusionsoft_form_content button { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_9 h2, .inf_infusionsoft .inf_infusionsoft_optin_9 h2 span, .inf_infusionsoft .inf_infusionsoft_optin_9 h2 strong { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; }.inf_infusionsoft .inf_infusionsoft_optin_9 p, .inf_infusionsoft .inf_infusionsoft_optin_9 p span, .inf_infusionsoft .inf_infusionsoft_optin_9 p strong, .inf_infusionsoft .inf_infusionsoft_optin_9 form input, .inf_infusionsoft .inf_infusionsoft_optin_9 form button span { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; } .inf_infusionsoft .inf_infusionsoft_optin_8 p, .inf_infusionsoft .inf_infusionsoft_optin_8 p span, .inf_infusionsoft .inf_infusionsoft_optin_8 p strong, .inf_infusionsoft .inf_infusionsoft_optin_8 form input, .inf_infusionsoft .inf_infusionsoft_optin_8 form button span{ font-family: 'karla', sans-serif !important; line-height: 18px !important;} .inf_infusionsoft_form_text h2{ font-family: 'montserrat', sans-serif; font-weight: 700; font-size: 38px; width: 100%; display: block; line-height: 48px; margin: 0px;} .inf_infusionsoft .inf_infusionsoft_3_fields.inf_infusionsoft_bottom_inline p.inf_infusionsoft_popup_input, .inf_infusionsoft .inf_infusionsoft_3_fields.inf_infusionsoft_form_content.inf_infusionsoft_bottom_inline button, .inf_infusionsoft .inf_infusionsoft_optin_7 form button span, inf_infusionsoft_popup_input inf_infusionsoft_subscribe_email input, .inf_infusionsoft .inf_infusionsoft_optin_7 form input{ width: 50%; font-family: 'Karla', sans-serif !important; text-transform: uppercase !important; font-size: 13px !important; line-height: 18px !important; } .inf_infusionsoft .inf_infusionsoft_form_header h2 { text-transform: uppercase; font-family: "Montserrat",sans-serif !important; font-size: 22px; margin-bottom: 10px; padding-bottom: 0 !important; font-weight: 600 !important; line-height: 1.1em !important; color: rgba(0, 0, 0, 0.8); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } .inf_infusionsoft .inf_infusionsoft_preview_popup p, .inf_infusionsoft .inf_infusionsoft_preview_popup p span, .inf_infusionsoft .inf_infusionsoft_preview_popup p strong, .inf_infusionsoft .inf_infusionsoft_preview_popup form input, .inf_infusionsoft .inf_infusionsoft_preview_popup form button span{ font-family: "Karla", sans-serif !important; font-weight: 100 !important;} .inf_infusionsoft .inf_infusionsoft_optin_9 p, .inf_infusionsoft .inf_infusionsoft_optin_9 p span, .inf_infusionsoft .inf_infusionsoft_optin_9 p strong, .inf_infusionsoft .inf_infusionsoft_optin_9 form input, .inf_infusionsoft .inf_infusionsoft_optin_9 form button span{font-family: "Karla", sans-serif !important; line-height: 18px !important;} .inf_infusionsoft .inf_infusionsoft_preview_popup .inf_infusionsoft_form_container .inf_infusionsoft_form_content .inf_infusionsoft_popup_input input {text-transform: uppercase !important; letter-spacing: 1px !important; font-size: 13px !important; line-height: 13px !important;}.inf_infusionsoft .inf_infusionsoft_optin_10 .inf_infusionsoft_form_content { background-color: #ededed !important; } .inf_infusionsoft .inf_infusionsoft_optin_10 .inf_infusionsoft_form_container .inf_infusionsoft_form_header { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_10 .inf_infusionsoft_form_container { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_10 .inf_infusionsoft_form_content button { background-color: #292929 !important; } .inf_infusionsoft .inf_infusionsoft_optin_10 .inf_infusionsoft_form_content button { background-color: #292929 !important; } .inf_infusionsoft .inf_infusionsoft_optin_10 h2, .inf_infusionsoft .inf_infusionsoft_optin_10 h2 span, .inf_infusionsoft .inf_infusionsoft_optin_10 h2 strong { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; }.inf_infusionsoft .inf_infusionsoft_optin_10 p, .inf_infusionsoft .inf_infusionsoft_optin_10 p span, .inf_infusionsoft .inf_infusionsoft_optin_10 p strong, .inf_infusionsoft .inf_infusionsoft_optin_10 form input, .inf_infusionsoft .inf_infusionsoft_optin_10 form button span { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; } 
+				</style><script src="getTrackingCode"  ></script ><script>
+            WP_VIDEO_LIGHTBOX_VERSION="1.8.8";
+            WP_VID_LIGHTBOX_URL="https://www.aloecure.com/wp-content/plugins/wp-video-lightbox";
+                        function wpvl_paramReplace(name, string, value) {
+                // Find the param with regex
+                // Grab the first character in the returned string (should be ? or &)
+                // Replace our href string with our new value, passing on the name and delimeter
+
+                var re = new RegExp("[\?&]" + name + "=([^&#]*)");
+                var matches = re.exec(string);
+                var newString;
+
+                if (matches === null) {
+                    // if there are no params, append the parameter
+                    newString = string + '?' + name + '=' + value;
+                } else {
+                    var delimeter = matches[0].charAt(0);
+                    newString = string.replace(re, delimeter + name + "=" + value);
+                }
+                return newString;
+            }
+            </script>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<style>
+			button.alert_button_hover:hover, button.unsubscribe_button:hover {
+				background: #6db52b !important;
+				color: fbfbfb !important;
+				border-color: fbfbfb !important;
+			}
+		</style><meta name="generator" content="Powered by Slider Revolution 5.4.8.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href=" " sizes="32x32" />
+<link rel="icon" href=" " sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href=" " />
+<meta name="msapplication-TileImage" content="https://www.aloecure.com/wp-content/uploads/2017/10/favicon.png" />
+<script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+		<style type="text/css" id="wp-custom-css">
+			.entry-content ol {
+	list-style-type: decimal;
+}
+
+body.page-id-4599 p.stock1 {
+	display: none !important;
+}
+body.page-id-4599 a.button.Choose.Natural {
+	background-color: #ccc;
+}
+body.page-id-4599 a.button.Choose.Natural,
+body.page-id-4599 a.button.Choose.Natural:hover {
+	pointer-events: none;
+}		</style>
+				
+	
+        
+     <div id="specialoffer">
+		 <a href=" "   alt="Special Offer"><p><strong>Special Offer:</strong> Free Shipping on All Orders $49+</p>
+</a><i title="Close Offer" class="fa fa-times" aria-hidden="true"></i>
+	</div>
+
+        
+	<div id="container">
+				<span itemscope itemtype="http://schema.org/Organization">
+			<header class="header" role="banner">
+				
+				<div id="upper-bar-wrap" class="m-all t-all d-all">
+					<div id="upper-bar" class="wrap cf">
+						<div class="m-all t-1of3 d-1of3 social-header">
+							<a href=" "   target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+							<a href=" "   target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+							<a href=" "   target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a> 
+							<a href=" "><i class="fa fa-rss" aria-hidden="true"></i></a>
+							<a href=" "  ><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+						</div>
+
+						<div class="m-all t-2of3 d-2of3 quick-nav">
+							<!-- <div class="top-link"><a href=" ">(800) 951-9727</a></div> -->
+
+							<div class="top-link">
+								<a href=" " onclick="window.open( 'https://www.aloecure.com/wp-content/themes/aloecure/includes/chat_AC.html', 'Customer Service Chat', 'width=320,height=430,location=0,scrollbars=no,status=no,toolbar=no,resizable=yes' )">Live Help</a>
+							</div>
+                            <div id="mailinglist" class="top-link">
+								<span style="display:inline;" class="inf_infusionsoft_click_trigger_element"  data-optin_id="optin_9">Join Our Mailing List</span>							</div>
+							<div class="top-link-cart">
+								<div class="top-cc-logos">
+									<i class="fa fa-cc-visa"></i>
+									<i class="fa fa-cc-mastercard"></i>
+									<i class="fa fa-cc-discover"></i>
+									<i class="fa fa-cc-amex"></i>
+								</div>
+								<a href=" "  >
+									<div id="cart-box">
+										<span class="cart-icon">
+											<i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart
+										</span>
+										<a href=" "  >
+											<span class="cart-count">0</span>
+										</a>
+										<a href=" "  >
+											<span class="cart-amt"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>0.00</span></span>
+                                		</a>
+									</div>
+								</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			
+				<div id="lower-bar" class="wrap cf">
+					<div class="m-all t-2of3 d-3of4">
+						<a itemprop="url" href=" "  >
+							<div id="logo" class="h1"><img itemprop="image" src="logo.png"   alt="AloeCure Logo"></div>
+						</a>
+						<nav role="navigation" id="primary-nav">
+							<ul id="menu-june-2017-menu" class="nav top-nav cf"><li id="menu-item-3357" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-3357"><a href=" "  >Products</a></li>
+<li id="menu-item-3359" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-product-ancestor current-menu-parent current-product-parent menu-item-3359"><a href=" "  >Digestive Health</a></li>
+<li id="menu-item-3360" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3360"><a href=" "  >Skin Care</a></li>
+<li id="menu-item-4737" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4737"><a href=" "  >Wellness</a></li>
+<li id="menu-item-3364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3364"><a href=" "  >Aloe Benefits</a></li>
+<li id="menu-item-3361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3361"><a href=" "  >Blog</a></li>
+</ul>						</nav>
+					</div>
+
+                    <div class="m-all t-1of3 d-1of4 header-cta">
+						<div class="header-phone">							
+							<a href=" ">(877) 487-9702</a>
+						</div>
+						<div class="search-bar-header">
+							<form role="search" method="get" id="searchform-header" class="searchform" action="https://www.aloecure.com/">
+								<input type="search" id="s" name="s" value="" placeholder="Search for...">
+								<!-- <button type="submit" id="searchsubmit" ></button> -->
+							</form>
+							<span class="search-header">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</span>                         
+                        </div>
+
+					</div>
+            </div>
+		</header>
+
+		            
+            <nav role="navigation" id="mobilemenu">
+				<ul id="menu-june-2017-menu-1" class="nav top-nav cf"><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-3357"><a href=" "  >Products</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-product-ancestor current-menu-parent current-product-parent menu-item-3359"><a href=" "  >Digestive Health</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3360"><a href=" "  >Skin Care</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4737"><a href=" "  >Wellness</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3364"><a href=" "  >Aloe Benefits</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3361"><a href=" "  >Blog</a></li>
+</ul>			</nav>
+            
+            <div id="search-mobile">
+				<form role="search" method="get" id="searchform" class="searchform" action="https://www.aloecure.com/">
+        			<input type="search" id="s" name="s" value="Search...">
+        			<button type="submit" id="searchsubmit"><i class="fa fa-search" aria-hidden="true"></i></button>
+				</form>
+			</div>
+            
+            <div id="mobile-responsive-bar">
+                
+                <div id="mm-menu" class="d-1of4 t-1of4 m-1of4"><i class="fa fa-bars"></i></div>
+                <div id="mm-search" class="d-1of4 t-1of4 m-1of4"><i class="fa fa-search"></i></div>
+                <div id="mm-cart" class="d-1of4 t-1of4 m-1of4"><a href=" "  ><i class="fa fa-shopping-cart"></i></a></div>
+                <div id="mm-phone" class="d-1of4 t-1of4 m-1of4 last"><a href=" "><i class="fa fa-phone"></i></a></div>
+                                                     
+           </div>
+<div id="content">
+
+	<nav class="woocommerce-breadcrumb"><a href=" "  >Home</a><span class="delimiter">/</span><a href=" "  >Digestive Health</a><span class="delimiter">/</span>AloeVita Water with Pure Aloe Leaf &#8211; 12 Pack</nav>
+	<div itemscope itemtype="http://schema.org/DietarySupplement" id="inner-content" class="wrap cf">
+				
+						<div id="product-sidebar" class="sidebar m-all t-1of3 d-1of3 last-col cf" role="complementary">
+                    
+                    
+                            
+	<div id="prod-image">
+				<img src="ALL-768x338-1.jpg"  >
+					</div>
+
+		
+
+					
+				</div>
+
+		<main id="main" class="m-all t-2of3 d-2of3 cf">
+
+			<div id="primary" class="content-area"><main id="main" class="site-main" role="main">
+				
+					
+<div class="woocommerce-notices-wrapper"></div>
+<div itemscope itemtype="http://schema.org/Product" id="product-42" class="post-42 product type-product status-publish has-post-thumbnail product_cat-digestive-health first instock taxable shipping-taxable purchasable product-type-variable has-default-attributes">
+
+		<div id="prod-image-mobile">
+						<img width="680" height="680" src="aloevita.jpg"   class="attachment-large size-large wp-post-image" alt="" srcset="https://www.aloecure.com/wp-content/uploads/2016/06/aloevita.jpg 1000w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-300x300.jpg 300w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-100x100.jpg 100w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-600x600.jpg 600w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-150x150.jpg 150w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-768x768.jpg 768w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-610x610.jpg 610w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-125x125.jpg 125w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-32x32.jpg 32w" sizes="(max-width: 680px) 100vw, 680px" />					</div>
+	<div class="summary entry-summary">
+		<h1 itemprop="name" class="product_title entry-title">AloeVita Water with Pure Aloe Leaf &#8211; 12 Pack</h1><p class="price">Starting at <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>24.00</span></p>
+<h2 itemprop="proprietaryName" class="product-sd">6 Delicious Flavors of Vitamin Packed Aloe Vera Water</h2><div class="product-border"></div>
+<div class="vform-wrap"><form class="variations_form cart" method="post" enctype='multipart/form-data' data-product_id="42" data-product_variations="[{&quot;attributes&quot;:{&quot;attribute_flavor&quot;:&quot;Green Grape&quot;},&quot;availability_html&quot;:&quot;&quot;,&quot;backorders_allowed&quot;:false,&quot;dimensions&quot;:{&quot;length&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},&quot;dimensions_html&quot;:&quot;N\/A&quot;,&quot;display_price&quot;:24,&quot;display_regular_price&quot;:24,&quot;image&quot;:{&quot;title&quot;:&quot;aloevita&quot;,&quot;caption&quot;:&quot;&quot;,&quot;url&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg&quot;,&quot;alt&quot;:&quot;&quot;,&quot;src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-600x600.jpg&quot;,&quot;srcset&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-600x600.jpg 600w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-300x300.jpg 300w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-100x100.jpg 100w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-150x150.jpg 150w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-768x768.jpg 768w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-610x610.jpg 610w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-125x125.jpg 125w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-32x32.jpg 32w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg 1000w&quot;,&quot;sizes&quot;:&quot;(max-width: 600px) 100vw, 600px&quot;,&quot;full_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg&quot;,&quot;full_src_w&quot;:1000,&quot;full_src_h&quot;:1000,&quot;gallery_thumbnail_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-100x100.jpg&quot;,&quot;gallery_thumbnail_src_w&quot;:100,&quot;gallery_thumbnail_src_h&quot;:100,&quot;thumb_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-300x300.jpg&quot;,&quot;thumb_src_w&quot;:300,&quot;thumb_src_h&quot;:300,&quot;src_w&quot;:600,&quot;src_h&quot;:600},&quot;image_id&quot;:&quot;4373&quot;,&quot;is_downloadable&quot;:false,&quot;is_in_stock&quot;:true,&quot;is_purchasable&quot;:true,&quot;is_sold_individually&quot;:&quot;no&quot;,&quot;is_virtual&quot;:false,&quot;max_qty&quot;:&quot;&quot;,&quot;min_qty&quot;:1,&quot;price_html&quot;:&quot;&quot;,&quot;sku&quot;:&quot;ACBOG&quot;,&quot;variation_description&quot;:&quot;&quot;,&quot;variation_id&quot;:3405,&quot;variation_is_active&quot;:true,&quot;variation_is_visible&quot;:true,&quot;weight&quot;:&quot;&quot;,&quot;weight_html&quot;:&quot;N\/A&quot;,&quot;vartable_gbb&quot;:&quot;&quot;,&quot;gbb_supply_amount&quot;:&quot;12&quot;,&quot;gbb_savings_amount&quot;:&quot;&quot;,&quot;gbb_alt_title&quot;:&quot;Green Grape&quot;},{&quot;attributes&quot;:{&quot;attribute_flavor&quot;:&quot;Green Grape Zero Calorie&quot;},&quot;availability_html&quot;:&quot;&quot;,&quot;backorders_allowed&quot;:false,&quot;dimensions&quot;:{&quot;length&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},&quot;dimensions_html&quot;:&quot;N\/A&quot;,&quot;display_price&quot;:24,&quot;display_regular_price&quot;:24,&quot;image&quot;:{&quot;title&quot;:&quot;aloevita&quot;,&quot;caption&quot;:&quot;&quot;,&quot;url&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg&quot;,&quot;alt&quot;:&quot;&quot;,&quot;src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-600x600.jpg&quot;,&quot;srcset&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-600x600.jpg 600w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-300x300.jpg 300w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-100x100.jpg 100w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-150x150.jpg 150w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-768x768.jpg 768w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-610x610.jpg 610w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-125x125.jpg 125w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-32x32.jpg 32w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg 1000w&quot;,&quot;sizes&quot;:&quot;(max-width: 600px) 100vw, 600px&quot;,&quot;full_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg&quot;,&quot;full_src_w&quot;:1000,&quot;full_src_h&quot;:1000,&quot;gallery_thumbnail_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-100x100.jpg&quot;,&quot;gallery_thumbnail_src_w&quot;:100,&quot;gallery_thumbnail_src_h&quot;:100,&quot;thumb_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-300x300.jpg&quot;,&quot;thumb_src_w&quot;:300,&quot;thumb_src_h&quot;:300,&quot;src_w&quot;:600,&quot;src_h&quot;:600},&quot;image_id&quot;:&quot;4373&quot;,&quot;is_downloadable&quot;:false,&quot;is_in_stock&quot;:true,&quot;is_purchasable&quot;:true,&quot;is_sold_individually&quot;:&quot;no&quot;,&quot;is_virtual&quot;:false,&quot;max_qty&quot;:&quot;&quot;,&quot;min_qty&quot;:1,&quot;price_html&quot;:&quot;&quot;,&quot;sku&quot;:&quot;ACBOGZ&quot;,&quot;variation_description&quot;:&quot;&quot;,&quot;variation_id&quot;:3404,&quot;variation_is_active&quot;:true,&quot;variation_is_visible&quot;:true,&quot;weight&quot;:&quot;&quot;,&quot;weight_html&quot;:&quot;N\/A&quot;,&quot;vartable_gbb&quot;:&quot;&quot;,&quot;gbb_supply_amount&quot;:&quot;12&quot;,&quot;gbb_savings_amount&quot;:&quot;&quot;,&quot;gbb_alt_title&quot;:&quot;Green Grape Zero Calorie&quot;},{&quot;attributes&quot;:{&quot;attribute_flavor&quot;:&quot;Mango&quot;},&quot;availability_html&quot;:&quot;&quot;,&quot;backorders_allowed&quot;:false,&quot;dimensions&quot;:{&quot;length&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},&quot;dimensions_html&quot;:&quot;N\/A&quot;,&quot;display_price&quot;:24,&quot;display_regular_price&quot;:24,&quot;image&quot;:{&quot;title&quot;:&quot;aloevita&quot;,&quot;caption&quot;:&quot;&quot;,&quot;url&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg&quot;,&quot;alt&quot;:&quot;&quot;,&quot;src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-600x600.jpg&quot;,&quot;srcset&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-600x600.jpg 600w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-300x300.jpg 300w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-100x100.jpg 100w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-150x150.jpg 150w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-768x768.jpg 768w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-610x610.jpg 610w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-125x125.jpg 125w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-32x32.jpg 32w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg 1000w&quot;,&quot;sizes&quot;:&quot;(max-width: 600px) 100vw, 600px&quot;,&quot;full_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg&quot;,&quot;full_src_w&quot;:1000,&quot;full_src_h&quot;:1000,&quot;gallery_thumbnail_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-100x100.jpg&quot;,&quot;gallery_thumbnail_src_w&quot;:100,&quot;gallery_thumbnail_src_h&quot;:100,&quot;thumb_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-300x300.jpg&quot;,&quot;thumb_src_w&quot;:300,&quot;thumb_src_h&quot;:300,&quot;src_w&quot;:600,&quot;src_h&quot;:600},&quot;image_id&quot;:&quot;4373&quot;,&quot;is_downloadable&quot;:false,&quot;is_in_stock&quot;:true,&quot;is_purchasable&quot;:true,&quot;is_sold_individually&quot;:&quot;no&quot;,&quot;is_virtual&quot;:false,&quot;max_qty&quot;:&quot;&quot;,&quot;min_qty&quot;:1,&quot;price_html&quot;:&quot;&quot;,&quot;sku&quot;:&quot;ACBM&quot;,&quot;variation_description&quot;:&quot;&quot;,&quot;variation_id&quot;:3406,&quot;variation_is_active&quot;:true,&quot;variation_is_visible&quot;:true,&quot;weight&quot;:&quot;&quot;,&quot;weight_html&quot;:&quot;N\/A&quot;,&quot;vartable_gbb&quot;:&quot;&quot;,&quot;gbb_supply_amount&quot;:&quot;12&quot;,&quot;gbb_savings_amount&quot;:&quot;&quot;,&quot;gbb_alt_title&quot;:&quot;Mango&quot;},{&quot;attributes&quot;:{&quot;attribute_flavor&quot;:&quot;Mango Zero Calorie&quot;},&quot;availability_html&quot;:&quot;&quot;,&quot;backorders_allowed&quot;:false,&quot;dimensions&quot;:{&quot;length&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},&quot;dimensions_html&quot;:&quot;N\/A&quot;,&quot;display_price&quot;:24,&quot;display_regular_price&quot;:24,&quot;image&quot;:{&quot;title&quot;:&quot;aloevita&quot;,&quot;caption&quot;:&quot;&quot;,&quot;url&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg&quot;,&quot;alt&quot;:&quot;&quot;,&quot;src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-600x600.jpg&quot;,&quot;srcset&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-600x600.jpg 600w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-300x300.jpg 300w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-100x100.jpg 100w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-150x150.jpg 150w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-768x768.jpg 768w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-610x610.jpg 610w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-125x125.jpg 125w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-32x32.jpg 32w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg 1000w&quot;,&quot;sizes&quot;:&quot;(max-width: 600px) 100vw, 600px&quot;,&quot;full_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg&quot;,&quot;full_src_w&quot;:1000,&quot;full_src_h&quot;:1000,&quot;gallery_thumbnail_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-100x100.jpg&quot;,&quot;gallery_thumbnail_src_w&quot;:100,&quot;gallery_thumbnail_src_h&quot;:100,&quot;thumb_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-300x300.jpg&quot;,&quot;thumb_src_w&quot;:300,&quot;thumb_src_h&quot;:300,&quot;src_w&quot;:600,&quot;src_h&quot;:600},&quot;image_id&quot;:&quot;4373&quot;,&quot;is_downloadable&quot;:false,&quot;is_in_stock&quot;:true,&quot;is_purchasable&quot;:true,&quot;is_sold_individually&quot;:&quot;no&quot;,&quot;is_virtual&quot;:false,&quot;max_qty&quot;:&quot;&quot;,&quot;min_qty&quot;:1,&quot;price_html&quot;:&quot;&quot;,&quot;sku&quot;:&quot;AVMangoZero&quot;,&quot;variation_description&quot;:&quot;&quot;,&quot;variation_id&quot;:6940,&quot;variation_is_active&quot;:true,&quot;variation_is_visible&quot;:true,&quot;weight&quot;:&quot;&quot;,&quot;weight_html&quot;:&quot;N\/A&quot;,&quot;vartable_gbb&quot;:&quot;&quot;,&quot;gbb_supply_amount&quot;:&quot;12&quot;,&quot;gbb_savings_amount&quot;:&quot;&quot;,&quot;gbb_alt_title&quot;:&quot;Mango Zero Calorie&quot;},{&quot;attributes&quot;:{&quot;attribute_flavor&quot;:&quot;Pomegranate&quot;},&quot;availability_html&quot;:&quot;&quot;,&quot;backorders_allowed&quot;:false,&quot;dimensions&quot;:{&quot;length&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},&quot;dimensions_html&quot;:&quot;N\/A&quot;,&quot;display_price&quot;:24,&quot;display_regular_price&quot;:24,&quot;image&quot;:{&quot;title&quot;:&quot;aloevita&quot;,&quot;caption&quot;:&quot;&quot;,&quot;url&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg&quot;,&quot;alt&quot;:&quot;&quot;,&quot;src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-600x600.jpg&quot;,&quot;srcset&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-600x600.jpg 600w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-300x300.jpg 300w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-100x100.jpg 100w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-150x150.jpg 150w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-768x768.jpg 768w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-610x610.jpg 610w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-125x125.jpg 125w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-32x32.jpg 32w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg 1000w&quot;,&quot;sizes&quot;:&quot;(max-width: 600px) 100vw, 600px&quot;,&quot;full_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg&quot;,&quot;full_src_w&quot;:1000,&quot;full_src_h&quot;:1000,&quot;gallery_thumbnail_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-100x100.jpg&quot;,&quot;gallery_thumbnail_src_w&quot;:100,&quot;gallery_thumbnail_src_h&quot;:100,&quot;thumb_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-300x300.jpg&quot;,&quot;thumb_src_w&quot;:300,&quot;thumb_src_h&quot;:300,&quot;src_w&quot;:600,&quot;src_h&quot;:600},&quot;image_id&quot;:&quot;4373&quot;,&quot;is_downloadable&quot;:false,&quot;is_in_stock&quot;:true,&quot;is_purchasable&quot;:true,&quot;is_sold_individually&quot;:&quot;no&quot;,&quot;is_virtual&quot;:false,&quot;max_qty&quot;:&quot;&quot;,&quot;min_qty&quot;:1,&quot;price_html&quot;:&quot;&quot;,&quot;sku&quot;:&quot;ACBOW&quot;,&quot;variation_description&quot;:&quot;&quot;,&quot;variation_id&quot;:3403,&quot;variation_is_active&quot;:true,&quot;variation_is_visible&quot;:true,&quot;weight&quot;:&quot;&quot;,&quot;weight_html&quot;:&quot;N\/A&quot;,&quot;vartable_gbb&quot;:&quot;&quot;,&quot;gbb_supply_amount&quot;:&quot;12&quot;,&quot;gbb_savings_amount&quot;:&quot;&quot;,&quot;gbb_alt_title&quot;:&quot;Pomegranate&quot;},{&quot;attributes&quot;:{&quot;attribute_flavor&quot;:&quot;Wild Berry&quot;},&quot;availability_html&quot;:&quot;&quot;,&quot;backorders_allowed&quot;:false,&quot;dimensions&quot;:{&quot;length&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},&quot;dimensions_html&quot;:&quot;N\/A&quot;,&quot;display_price&quot;:24,&quot;display_regular_price&quot;:24,&quot;image&quot;:{&quot;title&quot;:&quot;aloevita&quot;,&quot;caption&quot;:&quot;&quot;,&quot;url&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg&quot;,&quot;alt&quot;:&quot;&quot;,&quot;src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-600x600.jpg&quot;,&quot;srcset&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-600x600.jpg 600w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-300x300.jpg 300w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-100x100.jpg 100w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-150x150.jpg 150w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-768x768.jpg 768w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-610x610.jpg 610w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-125x125.jpg 125w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-32x32.jpg 32w, https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg 1000w&quot;,&quot;sizes&quot;:&quot;(max-width: 600px) 100vw, 600px&quot;,&quot;full_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg&quot;,&quot;full_src_w&quot;:1000,&quot;full_src_h&quot;:1000,&quot;gallery_thumbnail_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-100x100.jpg&quot;,&quot;gallery_thumbnail_src_w&quot;:100,&quot;gallery_thumbnail_src_h&quot;:100,&quot;thumb_src&quot;:&quot;https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita-300x300.jpg&quot;,&quot;thumb_src_w&quot;:300,&quot;thumb_src_h&quot;:300,&quot;src_w&quot;:600,&quot;src_h&quot;:600},&quot;image_id&quot;:&quot;4373&quot;,&quot;is_downloadable&quot;:false,&quot;is_in_stock&quot;:true,&quot;is_purchasable&quot;:true,&quot;is_sold_individually&quot;:&quot;no&quot;,&quot;is_virtual&quot;:false,&quot;max_qty&quot;:&quot;&quot;,&quot;min_qty&quot;:1,&quot;price_html&quot;:&quot;&quot;,&quot;sku&quot;:&quot;ACBP&quot;,&quot;variation_description&quot;:&quot;&quot;,&quot;variation_id&quot;:3402,&quot;variation_is_active&quot;:true,&quot;variation_is_visible&quot;:true,&quot;weight&quot;:&quot;&quot;,&quot;weight_html&quot;:&quot;N\/A&quot;,&quot;vartable_gbb&quot;:&quot;&quot;,&quot;gbb_supply_amount&quot;:&quot;12&quot;,&quot;gbb_savings_amount&quot;:&quot;&quot;,&quot;gbb_alt_title&quot;:&quot;Wild Berry&quot;}]">
+	
+							<table class="variations ppb-template-variation" cellspacing="0">
+			<tbody>
+				<script type="text/javascript">var btn_att = "flavor"; var two_atts = false;</script>									<tr>
+						<td class="label"><label for="flavor">Flavor</label></td>
+						<td class="value">
+														<select id="flavor" class="wc-default-select" name="attribute_flavor" data-attribute_name="attribute_flavor"><option value="">Choose an option</option><option value="Mango" >Mango</option><option value="Mango Zero Calorie" >Mango Zero Calorie</option><option value="Green Grape" >Green Grape</option><option value="Green Grape Zero Calorie"  selected='selected'>Green Grape Zero Calorie</option><option value="Pomegranate" >Pomegranate</option><option value="Wild Berry" >Wild Berry</option></select><a class="reset_variations" href=" ">Clear</a>										<div id="ppbLayout">
+																								<div class="prodOptionsByAtt" data-value="all_variations">
+																																																										<div class="aloeProductOption cf" data-value="Green Grape" data-id="3405">
+																<div class="xBottlesBtn">
+																	12 Bottles																</div>
+																<div class='optionTitle'>
+																	Green Grape																																	</div>
+																
+                                                                    														                                                                    <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>24.00</span><div class="savings">
+
+                                                                        </div>
+                                                                    
+                                                                    
+                                                                                                                                                                                                    
+                                                                
+															</div>
+																																												<div class="aloeProductOption cf" data-value="Green Grape Zero Calorie" data-id="3404">
+																<div class="xBottlesBtn">
+																	12 Bottles																</div>
+																<div class='optionTitle'>
+																	Green Grape Zero Calorie																																	</div>
+																
+                                                                    														                                                                    <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>24.00</span><div class="savings">
+
+                                                                        </div>
+                                                                    
+                                                                    
+                                                                                                                                                                                                    
+                                                                
+															</div>
+																																												<div class="aloeProductOption cf" data-value="Mango" data-id="3406">
+																<div class="xBottlesBtn">
+																	12 Bottles																</div>
+																<div class='optionTitle'>
+																	Mango																																	</div>
+																
+                                                                    														                                                                    <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>24.00</span><div class="savings">
+
+                                                                        </div>
+                                                                    
+                                                                    
+                                                                                                                                                                                                    
+                                                                
+															</div>
+																																												<div class="aloeProductOption cf" data-value="Mango Zero Calorie" data-id="6940">
+																<div class="xBottlesBtn">
+																	12 Bottles																</div>
+																<div class='optionTitle'>
+																	Mango Zero Calorie																																	</div>
+																
+                                                                    														                                                                    <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>24.00</span><div class="savings">
+
+                                                                        </div>
+                                                                    
+                                                                    
+                                                                                                                                                                                                    
+                                                                
+															</div>
+																																												<div class="aloeProductOption cf" data-value="Pomegranate" data-id="3403">
+																<div class="xBottlesBtn">
+																	12 Bottles																</div>
+																<div class='optionTitle'>
+																	Pomegranate																																	</div>
+																
+                                                                    														                                                                    <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>24.00</span><div class="savings">
+
+                                                                        </div>
+                                                                    
+                                                                    
+                                                                                                                                                                                                    
+                                                                
+															</div>
+																																												<div class="aloeProductOption cf" data-value="Wild Berry" data-id="3402">
+																<div class="xBottlesBtn">
+																	12 Bottles																</div>
+																<div class='optionTitle'>
+																	Wild Berry																																	</div>
+																
+                                                                    														                                                                    <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>24.00</span><div class="savings">
+
+                                                                        </div>
+                                                                    
+                                                                    
+                                                                                                                                                                                                    
+                                                                
+															</div>
+																											</div>
+																						</div>
+																 						</td>
+					</tr>
+		        			</tbody>
+
+			</table>
+
+
+		
+		<div class="single_variation_wrap">
+			<div class="woocommerce-variation single_variation"></div><div class="woocommerce-variation-add-to-cart variations_button">
+	
+		<div class="quantity">
+				<label class="screen-reader-text" for="quantity_5d9dca71572de">AloeVita Water with Pure Aloe Leaf - 12 Pack quantity</label>
+		<input
+			type="number"
+			id="quantity_5d9dca71572de"
+			class="input-text qty text"
+			step="1"
+			min="1"
+			max=""
+			name="quantity"
+			value="1"
+			title="Qty"
+			size="4"
+			inputmode="numeric" />
+			</div>
+	
+	<button type="submit" class="single_add_to_cart_button button alt">Add to cart</button>
+
+	
+	<input type="hidden" name="add-to-cart" value="42" />
+	<input type="hidden" name="product_id" value="42" />
+	<input type="hidden" name="variation_id" class="variation_id" value="0" />
+</div>
+		</div>
+
+			
+	</form></div>
+
+
+
+<div class="product_meta">
+
+	
+	
+		<span class="sku_wrapper">SKU: <span class="sku">N/A</span></span>
+
+	
+	<span class="posted_in">Category: <a href=" "   rel="tag">Digestive Health</a></span>
+	
+	
+</div>
+
+	</div><!-- .summary -->
+	<div class="cf"></div>
+    <div class="product-border"></div>
+
+
+	
+	<meta itemprop="url" content="https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/" />
+</div><!-- #product-42 -->
+
+
+
+
+
+
+				
+			</main></div>            
+            
+		</main>
+        
+        
+        <section id="shipping-detail-wrap">
+        
+            <div class="m-all t-1of3 d-1of3"><div class="free-shipping">
+						<p class="gray-text"><img src="icon-shipping.png"   alt="Free Shipping"><strong>Free Shipping </strong>on orders over $49</p>
+                <p>This offer is valid on all <span itemprop="manufacturer">AloeCure</span> items</p>
+                </div></div>
+        
+                        <div class="m-all t-2of3 d-2of3">
+            <div itemprop="background" class="prod-desc"><p>Not only does our Water with Pure Aloe Leaf taste great but it is good for you too! Aloe Vera water is available in 5 flavors: Green Grape, Zero Calorie Green Grape, Mango, Pomegranate, and Wild Berry.</p>
+<ul>
+<li>Low Sodium</li>
+<li>Fat Free</li>
+<li>Vegan</li>
+<li>Sweetened with Cane Sugar</li>
+<li>No Artificial Colors</li>
+<li>No Artificial Preservatives</li>
+<li>Gluten Free</li>
+</ul>
+<span class="inf_infusionsoft_bottom_trigger"></span></div>
+            
+            </div>
+        
+        
+        </section>
+        
+        
+        
+        	<div id="product-details">
+		<div id="product-detail-tabs">
+							<div class="product-tab" value="1">About</div>
+						
+				<div class="product-tab" value="2">Ingredients</div>
+			
+            				<div class="product-tab" value="3">FAQ</div>
+											</div>
+		<div id="prod-details-lower">
+							<div class="product-detail" id="prod-det-1">
+					<span class="detail-mobile-tab">About</span>
+					<div class="prod-detail-content">
+                        <h2>About</h2>
+						<p>At AloeCure we&#8217;re Aloe Vera experts and we took the best of Aloe Vera and other natural ingredients and created this wonderful line of refreshing beverages so you can both quench your thirst and get the health benefits of Aloe. Go ahead and try it today and discover why we&#8217;re the best Aloe beverage.</p>
+<p>Available in 5 flavors: Green Grape, Zero Calorie Green Grape, Mango, Pomegranate, and Wild Berry</p>
+					</div>
+				</div>
+			            
+
+			
+				<div class="product-detail" id="prod-det-2">
+					<span class="detail-mobile-tab">Ingredients</span>
+					<div class="prod-detail-content">
+                        
+                                 
+				                        <section class="performance-facts"><header class="performance-facts__header">
+<h2 class="performance-facts__title">Supplement Facts</h2>
+<p>Serving Size: 8fl oz (240ml)<br>
+    Serving Per Bottle: About 2</p>
+</header>
+<table  itemscope itemtype="http://schema.org/DietarySupplement" class="performance-facts__table">
+<thead>
+<tr>
+<th class="small-info" colspan="3">Amount Per Serving</th>
+</tr>
+</thead>
+<tbody id="ingt">
+<tr>
+<th colspan="2"><b>Calories</b>
+60</th>
+<td></td>
+</tr>
+<tr class="thick-row">
+<td class="small-info" colspan="3"><b>% Daily Value*</b></td>
+</tr>
+    
+
+    	<tr>
+<tr><th><b itemprop="activeIngredient">Total Fat</b></th><td>0g</td><td><b>0%</b></td></tr>    
+        
+     
+  <tr>
+<tr><th><b itemprop="activeIngredient">Total Carbohydrate</b></th><td>16g</td><td><b>8%</b></td></tr>    
+        
+     
+  <tr>
+    
+    <tr><th class="blank-cell">Sugars</th><td>16g</td><td><b></b></td></tr>    
+     
+  <tr>
+<tr><th><b itemprop="activeIngredient">Protein</b></th><td>0g</td><td><b>0%</b></td></tr>    
+        
+     
+  <tr>
+    
+        
+     <tr class="thick-end"><th></th><td></td><td><b></b></td></tr>
+  
+    
+    
+<tr id="t_copy" class="border-bottom"><td class="alt_table">Vitamin C 100%</td>
+<td class="alt_table">Calcium 2%</td>
+</tr> 
+</tbody>
+</table>
+<p class="small-info">Not a significant source of calories from fat, saturated fat, trans fat, cholesterol, dietary fiber, Vitamin A, and iron.<br>*Daily Value not established. Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</p>
+                            <p><strong>Ingredients:</strong> Water, Sugar, Organic Inner Leaf Aloe Vera Extract, Natural Flavor (Green Grape), Citric Acid, Vitamin C (Ascorbic Acid), Calcium Lactate, Gellan Gum, Stevia Extract, Cellulose Gum (CMC), Sodium Citrate</p>
+
+</section>
+                	        
+                        
+                        						
+						
+						
+						
+						
+
+	
+
+			<section class="performance-facts">
+<header class="performance-facts__header">
+<h2 class="performance-facts__title">Supplement Facts</h2>
+<p>Flavor: Mango<br />
+Serving Size: 8fl oz (240ml)<br />
+Serving Per Bottle: About 2</p>
+</header>
+<table class="performance-facts__table">
+<thead>
+<tr>
+<th class="small-info" colspan="3">Amount Per Serving</th>
+</tr>
+</thead>
+<tbody id="ingt">
+<tr>
+<th colspan="2"><b>Calories</b><br />
+60</th>
+<td></td>
+</tr>
+<tr class="thick-row">
+<td class="small-info" colspan="3"><b>% Daily Value*</b></td>
+</tr>
+<tr>
+<th><b>Total Fat</b></th>
+<td>0g</td>
+<td><b>0%</b></td>
+</tr>
+<tr>
+<th><b>Total Carbohydrate</b></th>
+<td>16g</td>
+<td><b>5%</b></td>
+</tr>
+<tr>
+<th class="blank-cell">Sugars</th>
+<td>16g</td>
+<td></td>
+</tr>
+<tr>
+<th><b>Protein</b></th>
+<td>0g</td>
+<td><b>0%</b></td>
+</tr>
+<tr class="thick-end">
+<th></th>
+<td></td>
+<td></td>
+</tr>
+<tr id="t_copy" class="border-bottom">
+<td class="alt_table">Vitamin C 100%</td>
+<td class="alt_table">Calcium 2%</td>
+</tr>
+</tbody>
+</table>
+<p class="small-info">Not a significant source of calories from fat, saturated fat, trans fat, cholesterol, dietary fiber, Vitamin A, and iron.<br />
+*Daily Value not established. Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</p>
+<p><strong>Ingredients:</strong> Water, Sugar, Organic Inner Leaf Aloe Vera Extract, Natural Flavor (Mango), Citric Acid, Vitamin C (Ascorbic Acid), Calcium Lactate, Gellan Gum, Stevia Extract, Cellulose Gum (CMC), Sodium Citrate</p>
+</section>
+	
+
+	
+
+			<section class="performance-facts">
+<header class="performance-facts__header">
+<h2 class="performance-facts__title">Supplement Facts</h2>
+<p>Flavor: Green Grape Zero<br />
+Serving Size: 8fl oz (240ml)<br />
+Serving Per Bottle: About 2</p>
+</header>
+<table class="performance-facts__table">
+<thead>
+<tr>
+<th class="small-info" colspan="3">Amount Per Serving</th>
+</tr>
+</thead>
+<tbody id="ingt">
+<tr>
+<th colspan="2"><b>Calories</b><br />
+0</th>
+<td></td>
+</tr>
+<tr class="thick-row">
+<td class="small-info" colspan="3"><b>% Daily Value*</b></td>
+</tr>
+<tr>
+<th><b>Total Fat</b></th>
+<td>0g</td>
+<td><b>0%</b></td>
+</tr>
+<tr>
+<th><b>Total Carbohydrate</b></th>
+<td>0g</td>
+<td><b>0%</b></td>
+</tr>
+<tr>
+<th class="blank-cell">Sugars</th>
+<td>0g</td>
+<td></td>
+</tr>
+<tr>
+<th><b>Protein</b></th>
+<td>0g</td>
+<td><b>0%</b></td>
+</tr>
+<tr class="thick-end">
+<th></th>
+<td></td>
+<td></td>
+</tr>
+<tr id="t_copy" class="border-bottom">
+<td class="alt_table">Vitamin C 100%</td>
+<td class="alt_table">Calcium 2%</td>
+</tr>
+</tbody>
+</table>
+<p class="small-info">Not a significant source of calories from fat, saturated fat, trans fat, cholesterol, dietary fiber, Vitamin A, and iron.<br />
+*Daily Value not established. Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</p>
+<p><strong>Ingredients:</strong> Water, Organic Inner Leaf Aloe Vera Extract, Natural Flavor (Green Grape), Citric Acid, Vitamin C (Ascorbic Acid), Calcium Lactate, Gellan Gum, Stevia Extract, Cellulose Gum (CMC), Sodium Citrate</p>
+</section>
+	
+
+	
+
+			<section class="performance-facts">
+<header class="performance-facts__header">
+<h2 class="performance-facts__title">Supplement Facts</h2>
+<p>Flavor: Pomegranate<br />
+Serving Size: 8fl oz (240ml)<br />
+Serving Per Bottle: About 2</p>
+</header>
+<table class="performance-facts__table">
+<thead>
+<tr>
+<th class="small-info" colspan="3">Amount Per Serving</th>
+</tr>
+</thead>
+<tbody id="ingt">
+<tr>
+<th colspan="2"><b>Calories</b><br />
+60</th>
+<td></td>
+</tr>
+<tr class="thick-row">
+<td class="small-info" colspan="3"><b>% Daily Value*</b></td>
+</tr>
+<tr>
+<th><b>Total Fat</b></th>
+<td>0g</td>
+<td><b>0%</b></td>
+</tr>
+<tr>
+<th><b>Total Carbohydrate</b></th>
+<td>16g</td>
+<td><b>5%</b></td>
+</tr>
+<tr>
+<th class="blank-cell">Sugars</th>
+<td>16g</td>
+<td></td>
+</tr>
+<tr>
+<th><b>Protein</b></th>
+<td>0g</td>
+<td><b>0%</b></td>
+</tr>
+<tr class="thick-end">
+<th></th>
+<td></td>
+<td></td>
+</tr>
+<tr id="t_copy" class="border-bottom">
+<td class="alt_table">Vitamin C 100%</td>
+<td class="alt_table">Calcium 2%</td>
+</tr>
+</tbody>
+</table>
+<p class="small-info">Not a significant source of calories from fat, saturated fat, trans fat, cholesterol, dietary fiber, Vitamin A, and iron.<br />
+*Daily Value not established. Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</p>
+<p><strong>Ingredients:</strong> Water, Sugar, Organic Inner Leaf Aloe Vera Extract, Natural Flavor (Pomegranate), Citric Acid, Vitamin C (Ascorbic Acid), Calcium Lactate, Gellan Gum, Stevia Extract, Cellulose Gum (CMC), Sodium Citrate</p>
+</section>
+	
+
+	
+
+			<section class="performance-facts">
+<header class="performance-facts__header">
+<h2 class="performance-facts__title">Supplement Facts</h2>
+<p>Flavor: Wild Berry<br />
+Serving Size: 8fl oz (240ml)<br />
+Serving Per Bottle: About 2</p>
+</header>
+<table class="performance-facts__table">
+<thead>
+<tr>
+<th class="small-info" colspan="3">Amount Per Serving</th>
+</tr>
+</thead>
+<tbody id="ingt">
+<tr>
+<th colspan="2"><b>Calories</b><br />
+60</th>
+<td></td>
+</tr>
+<tr class="thick-row">
+<td class="small-info" colspan="3"><b>% Daily Value*</b></td>
+</tr>
+<tr>
+<th><b>Total Fat</b></th>
+<td>0g</td>
+<td><b>0%</b></td>
+</tr>
+<tr>
+<th><b>Total Carbohydrate</b></th>
+<td>16g</td>
+<td><b>5%</b></td>
+</tr>
+<tr>
+<th class="blank-cell">Sugars</th>
+<td>16g</td>
+<td></td>
+</tr>
+<tr>
+<th><b>Protein</b></th>
+<td>0g</td>
+<td><b>0%</b></td>
+</tr>
+<tr class="thick-end">
+<th></th>
+<td></td>
+<td></td>
+</tr>
+<tr id="t_copy" class="border-bottom">
+<td class="alt_table">Vitamin C 100%</td>
+<td class="alt_table">Calcium 2%</td>
+</tr>
+</tbody>
+</table>
+<p class="small-info">Not a significant source of calories from fat, saturated fat, trans fat, cholesterol, dietary fiber, Vitamin A, and iron.<br />
+*Daily Value not established. Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</p>
+<p><strong>Ingredients:</strong> Water, Sugar, Organic Inner Leaf Aloe Vera Extract, Natural Flavor (Wild Berry), Citric Acid, Vitamin C (Ascorbic Acid), Calcium Lactate, Gellan Gum, Stevia Extract, Cellulose Gum (CMC), Sodium Citrate</p>
+</section>
+	
+
+	
+
+			<section class="performance-facts">
+<header class="performance-facts__header">
+<h2 class="performance-facts__title">Supplement Facts</h2>
+<p>Flavor: Citrus Twist<br />
+Serving Size: 8fl oz (240ml)<br />
+Serving Per Bottle: About 2</p>
+</header>
+<table class="performance-facts__table">
+<thead>
+<tr>
+<th class="small-info" colspan="3">Amount Per Serving</th>
+</tr>
+</thead>
+<tbody id="ingt">
+<tr>
+<th colspan="2"><b>Calories</b><br />
+60</th>
+<td></td>
+</tr>
+<tr class="thick-row">
+<td class="small-info" colspan="3"><b>% Daily Value*</b></td>
+</tr>
+<tr>
+<th><b>Total Fat</b></th>
+<td>0g</td>
+<td><b>0%</b></td>
+</tr>
+<tr>
+<th><b>Total Carbohydrate</b></th>
+<td>16g</td>
+<td><b>5%</b></td>
+</tr>
+<tr>
+<th class="blank-cell">Sugars</th>
+<td>16g</td>
+<td></td>
+</tr>
+<tr>
+<th><b>Protein</b></th>
+<td>0g</td>
+<td><b>0%</b></td>
+</tr>
+<tr class="thick-end">
+<th></th>
+<td></td>
+<td></td>
+</tr>
+<tr id="t_copy" class="border-bottom">
+<td class="alt_table">Vitamin C 100%</td>
+<td class="alt_table">Calcium 2%</td>
+</tr>
+</tbody>
+</table>
+<p class="small-info">Not a significant source of calories from fat, saturated fat, trans fat, cholesterol, dietary fiber, Vitamin A, and iron.<br />
+*Daily Value not established. Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</p>
+<p><strong>Ingredients:</strong> Water, Sugar, Organic Inner Leaf Aloe Vera Extract, Natural Flavor (Lemon/Lime), Citric Acid, Vitamin C (Ascorbic Acid), Calcium Lactate, Gellan Gum, Stevia Extract, Cellulose Gum (CMC), Sodium Citrate</p>
+</section>
+	
+
+	
+
+			<section class="performance-facts">
+<header class="performance-facts__header">
+<h2 class="performance-facts__title">Supplement Facts</h2>
+<p>Flavor: Mango Zero<br />
+Serving Size: 8fl oz (240ml)<br />
+Serving Per Bottle: About 2</p>
+</header>
+<table class="performance-facts__table">
+<thead>
+<tr>
+<th class="small-info" colspan="3">Amount Per Serving</th>
+</tr>
+</thead>
+<tbody id="ingt">
+<tr>
+<th colspan="2"><b>Calories</b><br />
+0</th>
+<td></td>
+</tr>
+<tr class="thick-row">
+<td class="small-info" colspan="3"><b>% Daily Value*</b></td>
+</tr>
+<tr>
+<th><b>Total Fat</b></th>
+<td>0g</td>
+<td><b>0%</b></td>
+</tr>
+<tr>
+<th><b>Total Carbohydrate</b></th>
+<td>0g</td>
+<td><b>0%</b></td>
+</tr>
+<tr>
+<th class="blank-cell">Sugars</th>
+<td>0g</td>
+<td></td>
+</tr>
+<tr>
+<th><b>Protein</b></th>
+<td>0g</td>
+<td><b>0%</b></td>
+</tr>
+<tr class="thick-end">
+<th></th>
+<td></td>
+<td></td>
+</tr>
+<tr id="t_copy" class="border-bottom">
+<td class="alt_table">Vitamin C 100%</td>
+<td class="alt_table">Calcium 2%</td>
+</tr>
+</tbody>
+</table>
+<p class="small-info">Not a significant source of calories from fat, saturated fat, trans fat, cholesterol, dietary fiber, Vitamin A, and iron.<br />
+*Daily Value not established. Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</p>
+<p><strong>Ingredients:</strong> Water, Organic Inner Leaf Aloe Vera Extract, Natural Flavor (Mango), Citric Acid, Vitamin C (Ascorbic Acid), Calcium Lactate, Gellan Gum, Stevia Extract, Cellulose Gum (CMC), Sodium Citrate</p>
+</section>
+	
+
+	
+
+			
+                        
+                        
+             
+              
+				
+					</div>
+				</div>
+		
+            
+     
+
+            
+							<div class="product-detail" id="prod-det-3">
+					<span class="detail-mobile-tab">FAQ</span>
+					<div class="prod-detail-content">
+                        <h2>FAQ</h2>
+		    					    				<p>
+		    					<b>Q: What's the difference between Aloe Vera Water with Pulp and Aloe Vera Extract?</b><br />
+		    					<b>A: </b>AloeVita Aloe Vera Water with Pulp is an everyday beverage that has 5% Aloe Vera content by volume. The Water with Aloe Pulp is a better-for-you functional beverage compared to other popular carbonated, bottled juices, and soft drinks. This tasty beverage is meant to be enjoyed everyday because it tastes good and makes you feel good.
+
+AloeVita Aloe Vera Extract is 99% Pure Aloe Vera and is a dietary supplement for health and well-being. The extract is commonly used to aid in digestive relief.		       				</p>
+								    				<p>
+		    					<b>Q: Where is the Aloe Vera from?</b><br />
+		    					<b>A: </b>AloeVita owns and operates all of the Aloe Vera farms used to make AloeVita drink products. All of the Aloe Vera is certified organic by ECOCERT®. Our Aloe Vera farms are located in the tropical regions of Southeast Asia and we process the leaves within 24 hours after harvesting to assure the highest concentration of Aloe Vera vitamins, minerals, and amino acids go into every bottle.		       				</p>
+								    				<p>
+		    					<b>Q: Who makes AloeVita?</b><br />
+		    					<b>A: </b>AloeVita owns and operates all of the bottling facilities that are used to make AloeVita. The facilities are located within close driving proximity from our Aloe Vera farms assure that we process the Aloe Vera immediately after harvest. The facilities are certified Organic by ECOCERT®. 		       				</p>
+								    				<p>
+		    					<b>Q: Do you pasteurize this product?</b><br />
+		    					<b>A: </b>Yes. Our machinery uses a patented method to extract the Aloe Vera then filter and flash pasteurize the water at 120 degrees for up to five seconds.		       				</p>
+								    				<p>
+		    					<b>Q: How long after I open AloeVita does it stay fresh?</b><br />
+		    					<b>A: </b>We suggest that if you open AloeVita and do not finish drinking it, that you place it in a refrigerator and drink it within 24-48 hours.		       				</p>
+								    				<p>
+		    					<b>Q: How much AloeVita should I drink?</b><br />
+		    					<b>A: </b>We know customers enjoy drinking AloeVita because it makes them feel good. Aloe Vera is packed with vitamins and nutrients so we recommend you drink as much as you would like.		       				</p>
+								    				<p>
+		    					<b>Q: Is AloeVita gluten free and vegan-approved?</b><br />
+		    					<b>A: </b>Yes to both: our AloeVita is gluten free and vegan-approved, as AloeVita does not contain any animal-derived or dairy products in its beverages. it is also low sodium and fat free.		       				</p>
+											</div>
+				</div>
+			            
+            			            
+					</div>
+	</div>
+		
+	</div>
+
+</div>
+
+
+
+
+
+ <div id="socialshare-footer" class="cf">
+ 
+<div id="featured-products-wrapper">  
+
+
+
+    <div id="f-social-share" class="m-all t-1of3 d-1of3 cf">
+
+<a id="ss-facebook" href=" "  ><i class="fa fa-facebook" aria-hidden="true"></i> Share This Product</a></div>
+    
+        <div id="f-social-share" class="m-all t-1of3 d-1of3 cf">
+
+<a id="ss-twitter" href=" "  ><i class="fa fa-twitter" aria-hidden="true"></i>Tweet This Product</a></div>
+    
+        <div id="f-social-share" class="m-all t-1of3 d-1of3 cf">
+
+<a id="ss-email" href=" "><i class="fa fa-envelope-o" aria-hidden="true"></i>Email This Product</a></div>
+ 
+
+
+   
+         </div></div>
+   
+
+
+
+      
+  <div id="rproduct-footer" class="cf">
+
+
+     <div id="related-products-footer"><div class="title-wrap">
+         <h1 id="title">Related Products</h1><div class="title-sep"></div></div>
+         
+
+ 
+                
+         
+
+             
+         
+         
+<div id="featured-products-wrapper">  
+
+
+
+
+ 
+ 
+            
+    
+<div class="woocommerce columns-4 "><ul class="products">
+    <div class="rproduct-li-wrap">
+<li class="post-39 product type-product status-publish has-post-thumbnail product_cat-digestive-health first instock taxable shipping-taxable purchasable product-type-variable"><div class="rp-li-wrap">
+	<div class="plist-img"><a href=" "   class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="Pure-Aloe-Extract-June-2016-1-300x300.jpg"   class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Aloe Vera Capsules" srcset="https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-300x300.jpg 300w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-100x100.jpg 100w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-600x600.jpg 600w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-150x150.jpg 150w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-768x768.jpg 768w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-610x610.jpg 610w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-125x125.jpg 125w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-32x32.jpg 32w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1.jpg 800w" sizes="(max-width: 300px) 100vw, 300px" /></div>
+<div class="title-price-wrap">
+	<h2 class="woocommerce-loop-product__title">AloeCure Advanced Formula Capsule</h2> </a><p class="product-sd">Advanced Formula Pure Aloe Capsule for Healthy Digestive System and Immune Support</p>
+	<span class="price">Starting at <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>99.00</span></span>
+    </div>
+
+	</a><a href=" "   data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="39" data-product_sku="" aria-label="Select options for &ldquo;AloeCure Advanced Formula Capsule&rdquo;" rel="nofollow">Buy Now</a>  
+   <div class="rp-footer">
+       <div class="product-border"></div>
+    <div class="rp-footer1">
+        <a href=" "   class="woocommerce-LoopProduct-link"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a></div>
+        <div class="rp-footer2"><a href=" "   class="woocommerce-LoopProduct-link"><i class="fa fa-info-circle" aria-hidden="true"></i> Details</a></div>
+    </div>  </li>
+    
+    
+    
+
+<li class="post-35 product type-product status-publish has-post-thumbnail product_cat-digestive-health  instock taxable shipping-taxable purchasable product-type-variable has-default-attributes"><div class="rp-li-wrap">
+	<div class="plist-img"><a href=" "   class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="AloeCure.Extract-300x300.jpg"   class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-300x300.jpg 300w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-100x100.jpg 100w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-600x600.jpg 600w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-150x150.jpg 150w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-768x768.jpg 768w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-610x610.jpg 610w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-125x125.jpg 125w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-32x32.jpg 32w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></div>
+<div class="title-price-wrap">
+	<h2 class="woocommerce-loop-product__title">AloeCure Pure Aloe Vera Extract</h2> </a><p class="product-sd">Aloe Vera Juice to Help Balance Stomach Acid Naturally</p>
+	<span class="price">Starting at <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>14.95</span></span>
+    </div>
+
+	</a><a href=" "   data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="35" data-product_sku="" aria-label="Select options for &ldquo;AloeCure Pure Aloe Vera Extract&rdquo;" rel="nofollow">Buy Now</a>  
+   <div class="rp-footer">
+       <div class="product-border"></div>
+    <div class="rp-footer1">
+        <a href=" "   class="woocommerce-LoopProduct-link"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a></div>
+        <div class="rp-footer2"><a href=" "   class="woocommerce-LoopProduct-link"><i class="fa fa-info-circle" aria-hidden="true"></i> Details</a></div>
+    </div>  </li>
+    
+    
+    
+
+
+</div>
+</ul>
+</div>        
+        
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+   
+         </div></div>
+   
+
+							</div>               
+
+				<div id="bottom-signup-bar">
+					<div class="wrap cf">
+                        <div id="newsletter-footer" class="m-all t-1of2 d-1of2">
+							<h3>
+								<i class="fa fa-envelope-o" aria-hidden="true"></i> Subscribe now and save 25% on your order!
+							</h3>
+						</div>
+                        
+   						<div id="newsletter-footer" class="m-all t-1of2 d-1of2">
+							<div class="inf_infusionsoft_form_content inf_infusionsoft_3_fields inf_infusionsoft_bottom_inline">
+					
+								<div class="inf_infusionsoft_inline_form inf_infusionsoft_optin inf_infusionsoft_optin_18">
+				<style type="text/css">.inf_infusionsoft .inf_infusionsoft_optin_18 .inf_infusionsoft_form_content { background-color: #83b834 !important; } .inf_infusionsoft .inf_infusionsoft_optin_18 .inf_infusionsoft_form_container .inf_infusionsoft_form_header { background-color: #91c04e !important; } .inf_infusionsoft .inf_infusionsoft_optin_18 .inf_infusionsoft_form_content button { background-color: #91c04e !important; } .inf_infusionsoft .inf_infusionsoft_optin_18 .inf_infusionsoft_form_content button { background-color: #91c04e !important; } .inf_infusionsoft .inf_infusionsoft_optin_18 h2, .inf_infusionsoft .inf_infusionsoft_optin_18 h2 span, .inf_infusionsoft .inf_infusionsoft_optin_18 h2 strong { font-family: "Lato", Helvetica, Arial, Lucida, sans-serif; }.inf_infusionsoft .inf_infusionsoft_optin_18 p, .inf_infusionsoft .inf_infusionsoft_optin_18 p span, .inf_infusionsoft .inf_infusionsoft_optin_18 p strong, .inf_infusionsoft .inf_infusionsoft_optin_18 form input, .inf_infusionsoft .inf_infusionsoft_optin_18 form button span { font-family: "Lato", Helvetica, Arial, Lucida, sans-serif; } </style>
+				<div class="inf_infusionsoft_form_container inf_infusionsoft_popup_container inf_infusionsoft_form_text_light inf_infusionsoft_form_bottom inf_infusionsoft_inline_1_field">
+					
+			<div class="inf_infusionsoft_form_container_wrapper clearfix">
+				<div class="inf_infusionsoft_header_outer">
+					<div class="inf_infusionsoft_form_header inf_infusionsoft_header_text_dark">
+						
+						
+						
+					</div>
+				</div>
+				<div class="inf_infusionsoft_form_content inf_infusionsoft_1_field inf_infusionsoft_bottom_inline">
+					
+					
+					<form method="post" class="clearfix">
+						
+						<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_email ">
+							<input placeholder="Email">
+						</p>
+
+						<button data-optin_id="optin_18" data-service="infusionsoft" data-list_id="empty" data-page_id="42" data-post_name="" data-cookie="" data-account="kc309" data-disable_dbl_optin="" data-redirect_url="/newsletter-sign-up-ty/" data-redirect="current_window" data-success_delay="2" data-center_webhook_url="" class="inf_infusionsoft_submit_subscription cursor-not-allowed" >
+							<span class="inf_infusionsoft_subscribe_loader"></span>
+							<span class="inf_infusionsoft_button_text inf_infusionsoft_button_text_color_light">Sign Up</span>
+						</button>
+						<div class="consent_wrapper" style="margin-top:10px;"><div class="consent_error" style="background-color:#83b834">Please provide consent.</div><div class="consent"><input type="checkbox" name="accept_consent" class="accept_consent"><span class="consent_text" style="margin-bottom:0 !important; color:; font-weight:400 !important;">Yes, I want to receive future promotional emails from AloeCure</span></div></div>
+					</form>
+
+					
+					<div class="inf_infusionsoft_success_container">
+						<span class="inf_infusionsoft_success_checkmark"></span>
+					</div>
+					<h2 class="inf_infusionsoft_success_message">You have Successfully Subscribed!</h2>
+					
+				</div>
+			</div>
+			<span class="inf_infusionsoft_close_button"></span>
+				</div>
+			</div>							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<footer class="footer" itemprop="brand" itemscope itemtype="http://schema.org/Brand">
+
+					<div id="inner-footer" class="wrap cf">
+			
+						<div class="m-all t-all d-1of4">
+                            
+                            <img class="footer-logo-white" itemprop="logo" src="logo.png"   alt="AloeCure Logo" />
+
+							<div class="footer-address">
+								11808 Northup Way, W105<br />
+								Bellevue, WA 98005 <br />
+                        		Phone: <a href=" ">877.487.9702</a><br />
+                    			<a href=" "  >Contact <span itemprop="name">AloeCure</span></a>
+							</div>
+							<div class="m-all t-all d-all social-footer">
+								<a href=" "   target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+								<a href=" "   target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+								<a href=" "   target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a> 
+								<a href=" "  ><i class="fa fa-rss" aria-hidden="true"></i></a>
+								<a href=" "  ><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="m-all t-all d-1of4">
+							<h3>Top Rated Products</h3>  
+                            <div class="woocommerce columns-4 "><ul class="products">
+    <div class="rproduct-li-wrap">
+<li class="post-39 product type-product status-publish has-post-thumbnail product_cat-digestive-health first instock taxable shipping-taxable purchasable product-type-variable"><div class="rp-li-wrap">
+	<div class="plist-img"><a href=" "   class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="Pure-Aloe-Extract-June-2016-1-300x300.jpg"   class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Aloe Vera Capsules" srcset="https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-300x300.jpg 300w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-100x100.jpg 100w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-600x600.jpg 600w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-150x150.jpg 150w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-768x768.jpg 768w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-610x610.jpg 610w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-125x125.jpg 125w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1-32x32.jpg 32w, https://www.aloecure.com/wp-content/uploads/2016/06/Pure-Aloe-Extract-June-2016-1.jpg 800w" sizes="(max-width: 300px) 100vw, 300px" /></div>
+<div class="title-price-wrap">
+	<h2 class="woocommerce-loop-product__title">AloeCure Advanced Formula Capsule</h2> </a><p class="product-sd">Advanced Formula Pure Aloe Capsule for Healthy Digestive System and Immune Support</p>
+	<span class="price">Starting at <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>99.00</span></span>
+    </div>
+
+	</a><a href=" "   data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="39" data-product_sku="" aria-label="Select options for &ldquo;AloeCure Advanced Formula Capsule&rdquo;" rel="nofollow">Buy Now</a>  
+   <div class="rp-footer">
+       <div class="product-border"></div>
+    <div class="rp-footer1">
+        <a href=" "   class="woocommerce-LoopProduct-link"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a></div>
+        <div class="rp-footer2"><a href=" "   class="woocommerce-LoopProduct-link"><i class="fa fa-info-circle" aria-hidden="true"></i> Details</a></div>
+    </div>  </li>
+    
+    
+    
+
+<li class="post-35 product type-product status-publish has-post-thumbnail product_cat-digestive-health  instock taxable shipping-taxable purchasable product-type-variable has-default-attributes"><div class="rp-li-wrap">
+	<div class="plist-img"><a href=" "   class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="AloeCure.Extract-300x300.jpg"   class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-300x300.jpg 300w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-100x100.jpg 100w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-600x600.jpg 600w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-150x150.jpg 150w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-768x768.jpg 768w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-610x610.jpg 610w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-125x125.jpg 125w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract-32x32.jpg 32w, https://www.aloecure.com/wp-content/uploads/2016/06/AloeCure.Extract.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></div>
+<div class="title-price-wrap">
+	<h2 class="woocommerce-loop-product__title">AloeCure Pure Aloe Vera Extract</h2> </a><p class="product-sd">Aloe Vera Juice to Help Balance Stomach Acid Naturally</p>
+	<span class="price">Starting at <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>14.95</span></span>
+    </div>
+
+	</a><a href=" "   data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="35" data-product_sku="" aria-label="Select options for &ldquo;AloeCure Pure Aloe Vera Extract&rdquo;" rel="nofollow">Buy Now</a>  
+   <div class="rp-footer">
+       <div class="product-border"></div>
+    <div class="rp-footer1">
+        <a href=" "   class="woocommerce-LoopProduct-link"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a></div>
+        <div class="rp-footer2"><a href=" "   class="woocommerce-LoopProduct-link"><i class="fa fa-info-circle" aria-hidden="true"></i> Details</a></div>
+    </div>  </li>
+    
+    
+    
+
+<li class="post-42 product type-product status-publish has-post-thumbnail product_cat-digestive-health  instock taxable shipping-taxable purchasable product-type-variable has-default-attributes"><div class="rp-li-wrap">
+	<div class="plist-img"><a href=" "   class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="aloevita-300x300.jpg"   class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-300x300.jpg 300w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-100x100.jpg 100w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-600x600.jpg 600w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-150x150.jpg 150w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-768x768.jpg 768w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-610x610.jpg 610w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-125x125.jpg 125w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita-32x32.jpg 32w, https://www.aloecure.com/wp-content/uploads/2016/06/aloevita.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></div>
+<div class="title-price-wrap">
+	<h2 class="woocommerce-loop-product__title">AloeVita Water with Pure Aloe Leaf &#8211; 12 Pack</h2> </a><p class="product-sd">6 Delicious Flavors of Vitamin Packed Aloe Vera Water</p>
+	<span class="price">Starting at <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>24.00</span></span>
+    </div>
+
+	</a><a href=" "   data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="42" data-product_sku="" aria-label="Select options for &ldquo;AloeVita Water with Pure Aloe Leaf - 12 Pack&rdquo;" rel="nofollow">Buy Now</a>  
+   <div class="rp-footer">
+       <div class="product-border"></div>
+    <div class="rp-footer1">
+        <a href=" "   class="woocommerce-LoopProduct-link"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</a></div>
+        <div class="rp-footer2"><a href=" "   class="woocommerce-LoopProduct-link"><i class="fa fa-info-circle" aria-hidden="true"></i> Details</a></div>
+    </div>  </li>
+    
+    
+    
+
+
+</div>
+</ul>
+</div>						</div>
+						<div class="m-all t-all d-1of4">
+											<div id="sidebar-footer-posts" class="sidebar fourcol last clearfix" role="complementary">
+								<div id="recent-posts-3" class="widget widget_recent_entries">		<h2>Recent Posts</h2>		<ul>
+											<li>
+					<a href=" "  >Aloe Vera vs CBD: Which is Better?</a>
+									</li>
+											<li>
+					<a href=" "  >Does Aloe Vera Have Side Effects?</a>
+									</li>
+											<li>
+					<a href=" "  >Aloe Vera vs Resveratrol</a>
+									</li>
+											<li>
+					<a href=" "  >The Uses and Benefits of Aloe Vera for Your Face</a>
+									</li>
+											<li>
+					<a href=" "  >Aloe Vera Digestion Benefits</a>
+									</li>
+					</ul>
+		</div>				</div>						</div>
+						<div class="m-all t-all d-1of4" itemscope itemtype="http://schema.org/Organization" id="footer-call">
+							<h3>Call now</h3>
+							<p itemprop="telephone" class="tel">877-487-9702</p>
+						</div>
+				
+				</div>
+
+					
+				<div id="footer-bottom-bar"> 
+                    <span class="disclaimer-text">
+						These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.
+					</span>
+					<p class="copyright">
+						&copy; Copyright 2019 American Global Health Group/<span itemprop="name">AloeCure</span>. All Rights Reserved.
+					</p>
+					<div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a href=" "  >Aloe Benefits</a></li>
+<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href=" "  >FAQ</a></li>
+<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href=" "  >Privacy Policy</a></li>
+<li id="menu-item-1971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1971"><a href=" "  >Terms of Use</a></li>
+<li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a href=" "  >Returns &#038; Refunds</a></li>
+<li id="menu-item-4377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4377"><a href=" "  >Sitemap</a></li>
+</ul></div>				</div>
+			</footer> 
+
+		</div>
+</span>
+				<div class="inf_infusionsoft_popup inf_infusionsoft_optin inf_infusionsoft_resize inf_infusionsoft_optin_6 inf_infusionsoft_click_trigger" inf_infusionsoft_click_trigger>
+							<div class="inf_infusionsoft_form_container inf_infusionsoft_popup_container inf_infusionsoft_form_bottom inf_infusionsoft_rounded_corners inf_infusionsoft_form_text_dark inf_infusionsoft_animation_fadein">
+								
+			<div class="inf_infusionsoft_form_container_wrapper clearfix">
+				<div class="inf_infusionsoft_header_outer">
+					<div class="inf_infusionsoft_form_header inf_infusionsoft_header_text_dark">
+						
+						<div class="inf_infusionsoft_form_text">
+						<h2>Register to Win a Free Bottle of AloeCure!</h2><p><span style="color: #ffffff;">We will pick one winner each month. The winner will be notified via email.</span></p>
+					</div>
+						
+					</div>
+				</div>
+				<div class="inf_infusionsoft_form_content inf_infusionsoft_3_fields inf_infusionsoft_bottom_inline">
+					
+					
+					<form method="post" class="clearfix">
+						<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_name">
+								<input placeholder="First Name" maxlength="50">
+							</p>
+									<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_last">
+										<input placeholder="Last Name" maxlength="50">
+									</p>
+						<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_email ">
+							<input placeholder="Email">
+						</p>
+
+						<button data-optin_id="optin_6" data-service="infusionsoft" data-list_id="empty" data-page_id="42" data-post_name="aloevita-water-pure-aloe-leaf" data-cookie="" data-account="kc309" data-disable_dbl_optin="" data-redirect_url="/win-free-bottle-ty/" data-redirect="current_window" data-success_delay="0" data-center_webhook_url="" class="inf_infusionsoft_submit_subscription" >
+							<span class="inf_infusionsoft_subscribe_loader"></span>
+							<span class="inf_infusionsoft_button_text inf_infusionsoft_button_text_color_light">REGISTER TO WIN!</span>
+						</button>
+						<div class="consent_wrapper" style="margin-top:10px;"></div>
+					</form>
+
+					
+					<div class="inf_infusionsoft_success_container">
+						<span class="inf_infusionsoft_success_checkmark"></span>
+					</div>
+					<h2 class="inf_infusionsoft_success_message"><p>Thank you for entering to win a free bottle!</p></h2>
+					
+				</div>
+			</div>
+			<span class="inf_infusionsoft_close_button"></span>
+							</div>
+						</div><div class="inf_infusionsoft_popup inf_infusionsoft_optin inf_infusionsoft_resize inf_infusionsoft_optin_7 inf_infusionsoft_click_trigger" inf_infusionsoft_click_trigger>
+							<div class="inf_infusionsoft_form_container inf_infusionsoft_popup_container inf_infusionsoft_form_bottom inf_infusionsoft_form_text_dark inf_infusionsoft_animation_fadein">
+								
+			<div class="inf_infusionsoft_form_container_wrapper clearfix">
+				<div class="inf_infusionsoft_header_outer">
+					<div class="inf_infusionsoft_form_header inf_infusionsoft_header_text_dark">
+						
+						<div class="inf_infusionsoft_form_text">
+						<h2>Your Free Bottle is One Click Away</h2><p><span style="color: #ffffff;">Sign up to receive a coupon for a free bottle of AloeCure Water with Pure Aloe Leaf.</span></p>
+					</div>
+						
+					</div>
+				</div>
+				<div class="inf_infusionsoft_form_content inf_infusionsoft_3_fields inf_infusionsoft_bottom_inline">
+					
+					
+					<form method="post" class="clearfix">
+						<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_name">
+								<input placeholder="First Name" maxlength="50">
+							</p>
+									<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_last">
+										<input placeholder="Last Name" maxlength="50">
+									</p>
+						<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_email ">
+							<input placeholder="Email">
+						</p>
+
+						<button data-optin_id="optin_7" data-service="infusionsoft" data-list_id="empty" data-page_id="42" data-post_name="aloevita-water-pure-aloe-leaf" data-cookie="" data-account="kc309" data-disable_dbl_optin="" data-redirect_url="/free-bottle-coupon-ty/" data-redirect="current_window" data-success_delay="0" data-center_webhook_url="" class="inf_infusionsoft_submit_subscription" >
+							<span class="inf_infusionsoft_subscribe_loader"></span>
+							<span class="inf_infusionsoft_button_text inf_infusionsoft_button_text_color_light">GET YOUR COUPON NOW!</span>
+						</button>
+						<div class="consent_wrapper" style="margin-top:10px;"></div>
+					</form>
+
+					
+					<div class="inf_infusionsoft_success_container">
+						<span class="inf_infusionsoft_success_checkmark"></span>
+					</div>
+					<h2 class="inf_infusionsoft_success_message"><p>Thank you for requesting a free bottle coupon!</p></h2>
+					
+				</div>
+			</div>
+			<span class="inf_infusionsoft_close_button"></span>
+							</div>
+						</div><div class="inf_infusionsoft_popup inf_infusionsoft_optin inf_infusionsoft_resize inf_infusionsoft_optin_8 inf_infusionsoft_click_trigger" inf_infusionsoft_click_trigger>
+							<div class="inf_infusionsoft_form_container inf_infusionsoft_popup_container inf_infusionsoft_form_bottom inf_infusionsoft_form_text_dark inf_infusionsoft_animation_fadein">
+								
+			<div class="inf_infusionsoft_form_container_wrapper clearfix">
+				<div class="inf_infusionsoft_header_outer">
+					<div class="inf_infusionsoft_form_header inf_infusionsoft_header_text_dark">
+						
+						<div class="inf_infusionsoft_form_text">
+						<h2>Don't Miss Out on Great Savings</h2><p><span style="color: #ffffff;">Sign up to be the first to know about our specials, deals, and coupons!</span></p>
+					</div>
+						
+					</div>
+				</div>
+				<div class="inf_infusionsoft_form_content inf_infusionsoft_3_fields inf_infusionsoft_bottom_inline">
+					
+					
+					<form method="post" class="clearfix">
+						<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_name">
+								<input placeholder="First Name" maxlength="50">
+							</p>
+									<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_last">
+										<input placeholder="Last Name" maxlength="50">
+									</p>
+						<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_email ">
+							<input placeholder="Email">
+						</p>
+
+						<button data-optin_id="optin_8" data-service="infusionsoft" data-list_id="empty" data-page_id="42" data-post_name="aloevita-water-pure-aloe-leaf" data-cookie="" data-account="kc309" data-disable_dbl_optin="" data-redirect_url="/send-discounts-ty/" data-redirect="current_window" data-success_delay="0" data-center_webhook_url="" class="inf_infusionsoft_submit_subscription" >
+							<span class="inf_infusionsoft_subscribe_loader"></span>
+							<span class="inf_infusionsoft_button_text inf_infusionsoft_button_text_color_light">SEND ME DISCOUNTS!</span>
+						</button>
+						<div class="consent_wrapper" style="margin-top:10px;"></div>
+					</form>
+
+					
+					<div class="inf_infusionsoft_success_container">
+						<span class="inf_infusionsoft_success_checkmark"></span>
+					</div>
+					<h2 class="inf_infusionsoft_success_message"><p>Thank you for your interest in our great deals and upcoming savings!</p></h2>
+					
+				</div>
+			</div>
+			<span class="inf_infusionsoft_close_button"></span>
+							</div>
+						</div><div class="inf_infusionsoft_popup inf_infusionsoft_optin inf_infusionsoft_resize inf_infusionsoft_optin_9 inf_infusionsoft_click_trigger" inf_infusionsoft_click_trigger>
+							<div class="inf_infusionsoft_form_container inf_infusionsoft_popup_container inf_infusionsoft_form_bottom inf_infusionsoft_rounded_corners inf_infusionsoft_form_text_dark inf_infusionsoft_animation_fadein">
+								
+			<div class="inf_infusionsoft_form_container_wrapper clearfix">
+				<div class="inf_infusionsoft_header_outer">
+					<div class="inf_infusionsoft_form_header inf_infusionsoft_header_text_dark">
+						
+						<div class="inf_infusionsoft_form_text">
+						<h2>Join Our Mailing List</h2><p><span style="color: #ffffff;">Get the latest aloe vera news and great deals from AloeCure!</span></p>
+					</div>
+						
+					</div>
+				</div>
+				<div class="inf_infusionsoft_form_content inf_infusionsoft_3_fields inf_infusionsoft_bottom_inline">
+					
+					
+					<form method="post" class="clearfix">
+						<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_name">
+								<input placeholder="First Name" maxlength="50">
+							</p>
+									<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_last">
+										<input placeholder="Last Name" maxlength="50">
+									</p>
+						<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_email ">
+							<input placeholder="Email">
+						</p>
+
+						<button data-optin_id="optin_9" data-service="infusionsoft" data-list_id="empty" data-page_id="42" data-post_name="aloevita-water-pure-aloe-leaf" data-cookie="" data-account="kc309" data-disable_dbl_optin="" data-redirect_url="/newsletter-sign-up-ty/" data-redirect="current_window" data-success_delay="0" data-center_webhook_url="" class="inf_infusionsoft_submit_subscription" >
+							<span class="inf_infusionsoft_subscribe_loader"></span>
+							<span class="inf_infusionsoft_button_text inf_infusionsoft_button_text_color_light">SIGN UP</span>
+						</button>
+						<div class="consent_wrapper" style="margin-top:10px;"></div>
+					</form>
+
+					
+					<div class="inf_infusionsoft_success_container">
+						<span class="inf_infusionsoft_success_checkmark"></span>
+					</div>
+					<h2 class="inf_infusionsoft_success_message"><p>Thank you for signing up!</p></h2>
+					
+				</div>
+			</div>
+			<span class="inf_infusionsoft_close_button"></span>
+							</div>
+						</div><div class="inf_infusionsoft_popup inf_infusionsoft_optin inf_infusionsoft_resize inf_infusionsoft_optin_10 inf_infusionsoft_click_trigger" inf_infusionsoft_click_trigger>
+							<div class="inf_infusionsoft_form_container inf_infusionsoft_popup_container inf_infusionsoft_form_bottom inf_infusionsoft_form_text_dark inf_infusionsoft_animation_fadein">
+								
+			<div class="inf_infusionsoft_form_container_wrapper clearfix">
+				<div class="inf_infusionsoft_header_outer">
+					<div class="inf_infusionsoft_form_header inf_infusionsoft_header_text_dark">
+						
+						<div class="inf_infusionsoft_form_text">
+						<h2>Subscribe to Our Blog!</h2><p><span style="color: #ffffff;">Get aloe vera news and trends straight to your inbox!</span></p>
+					</div>
+						
+					</div>
+				</div>
+				<div class="inf_infusionsoft_form_content inf_infusionsoft_3_fields inf_infusionsoft_bottom_inline">
+					
+					
+					<form method="post" class="clearfix">
+						<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_name">
+								<input placeholder="First Name" maxlength="50">
+							</p>
+									<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_last">
+										<input placeholder="Last Name" maxlength="50">
+									</p>
+						<p class="inf_infusionsoft_popup_input inf_infusionsoft_subscribe_email ">
+							<input placeholder="Email">
+						</p>
+
+						<button data-optin_id="optin_10" data-service="infusionsoft" data-list_id="empty" data-page_id="42" data-post_name="aloevita-water-pure-aloe-leaf" data-cookie="" data-account="kc309" data-disable_dbl_optin="" data-redirect_url="/blog-subscribe-ty/" data-redirect="current_window" data-success_delay="0" data-center_webhook_url="" class="inf_infusionsoft_submit_subscription" >
+							<span class="inf_infusionsoft_subscribe_loader"></span>
+							<span class="inf_infusionsoft_button_text inf_infusionsoft_button_text_color_light">SUBSCRIBE</span>
+						</button>
+						<div class="consent_wrapper" style="margin-top:10px;"></div>
+					</form>
+
+					
+					<div class="inf_infusionsoft_success_container">
+						<span class="inf_infusionsoft_success_checkmark"></span>
+					</div>
+					<h2 class="inf_infusionsoft_success_message"><p>Thank you for subscribing to our blog!</p></h2>
+					
+				</div>
+			</div>
+			<span class="inf_infusionsoft_close_button"></span>
+							</div>
+						</div><script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@graph":[{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home","@id":"https:\/\/www.aloecure.com"}},{"@type":"ListItem","position":2,"item":{"name":"Digestive Health","@id":"https:\/\/www.aloecure.com\/product-category\/digestive-health\/"}},{"@type":"ListItem","position":3,"item":{"name":"AloeVita Water with Pure Aloe Leaf &amp;#8211; 12 Pack","@id":"https:\/\/www.aloecure.com\/product\/aloevita-water-pure-aloe-leaf\/"}}]},{"@context":"https:\/\/schema.org\/","@type":"Product","@id":"https:\/\/www.aloecure.com\/product\/aloevita-water-pure-aloe-leaf\/#product","name":"AloeVita Water with Pure Aloe Leaf - 12 Pack","url":"https:\/\/www.aloecure.com\/product\/aloevita-water-pure-aloe-leaf\/","image":"https:\/\/www.aloecure.com\/wp-content\/uploads\/2016\/06\/aloevita.jpg","description":"Not only does our Water with Pure Aloe Leaf taste great but it is good for you too! Aloe Vera water is available in 5 flavors: Green Grape, Zero Calorie Green Grape, Mango, Pomegranate, and Wild Berry.\r\n\r\n \tLow Sodium\r\n \tFat Free\r\n \tVegan\r\n \tSweetened with Cane Sugar\r\n \tNo Artificial Colors\r\n \tNo Artificial Preservatives\r\n \tGluten Free","sku":42,"offers":[{"@type":"Offer","price":"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/24.00","priceValidUntil":"2020-12-31","priceSpecification":{"price":"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/24.00","priceCurrency":"USD","valueAddedTaxIncluded":"false"},"priceCurrency":"USD","availability":"http:\/\/schema.org\/InStock","url":"https:\/\/www.aloecure.com\/product\/aloevita-water-pure-aloe-leaf\/","seller":{"@type":"Organization","name":"AloeCure","url":"https:\/\/www.aloecure.com"}}]}]}</script>	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+			<script type="text/javascript">
+			var wc_product_block_data = JSON.parse( decodeURIComponent( '%7B%22min_columns%22%3A1%2C%22max_columns%22%3A6%2C%22default_columns%22%3A3%2C%22min_rows%22%3A1%2C%22max_rows%22%3A6%2C%22default_rows%22%3A1%2C%22thumbnail_size%22%3A300%2C%22placeholderImgSrc%22%3A%22https%3A%5C%2F%5C%2Fwww.aloecure.com%5C%2Fwp-content%5C%2Fuploads%5C%2Fwoocommerce-placeholder.png%22%2C%22min_height%22%3A500%2C%22default_height%22%3A500%2C%22isLargeCatalog%22%3Afalse%2C%22limitTags%22%3Afalse%2C%22hasTags%22%3Afalse%2C%22productCategories%22%3A%5B%7B%22term_id%22%3A60%2C%22name%22%3A%22Uncategorized%22%2C%22slug%22%3A%22uncategorized%22%2C%22term_group%22%3A0%2C%22term_taxonomy_id%22%3A60%2C%22taxonomy%22%3A%22product_cat%22%2C%22description%22%3A%22%22%2C%22parent%22%3A0%2C%22count%22%3A0%2C%22filter%22%3A%22raw%22%2C%22link%22%3A%22https%3A%5C%2F%5C%2Fwww.aloecure.com%5C%2Fproduct-category%5C%2Funcategorized%5C%2F%22%7D%2C%7B%22term_id%22%3A13%2C%22name%22%3A%22Digestive%20Health%22%2C%22slug%22%3A%22digestive-health%22%2C%22term_group%22%3A0%2C%22term_taxonomy_id%22%3A13%2C%22taxonomy%22%3A%22product_cat%22%2C%22description%22%3A%22%3Cp%20style%3D%5C%22text-align%3A%20left%3B%5C%22%3E%3Cstrong%3EDo%20you%20have%20bouts%20of%3A%3C%5C%2Fstrong%3E%3C%5C%2Fp%3E%5Cr%5Cn%5Cr%5Cn%3Cul%20style%3D%5C%22margin-left%3A%2020px%3B%20list-style-type%3A%20disc%3B%5C%22%3E%5Cr%5Cn%20%5Ct%3Cli%3EAcid%20reflux%20or%20Heartburn%3C%5C%2Fli%3E%5Cr%5Cn%20%5Ct%3Cli%3EGeneral%20digestive%20discomfort%3C%5C%2Fli%3E%5Cr%5Cn%3C%5C%2Ful%3E%5Cr%5CnUse%20aloe%20vera%20for%20digestion%20and%20belly%20health%20as%20the%20plant%20contains%20healing%20and%20soothing%20properties%20that%20can%20help%20with%20the%20discomfort%20associated%20with%20indigestion.%20All%20our%20products%20are%20made%20with%20aloe%20vera%20plants%20and%20delicately%20harvested%20to%20protect%20the%20nutritious%20integrity%20of%20the%20leaves.%20We%20never%20use%20chemical%20filtration%20or%20dilution%2C%20only%20the%20highest%20quality%20aloe%20vera%20extract.%22%2C%22parent%22%3A0%2C%22count%22%3A5%2C%22filter%22%3A%22raw%22%2C%22link%22%3A%22https%3A%5C%2F%5C%2Fwww.aloecure.com%5C%2Fproduct-category%5C%2Fdigestive-health%5C%2F%22%7D%2C%7B%22term_id%22%3A7%2C%22name%22%3A%22Health%20%26amp%3B%20Wellness%22%2C%22slug%22%3A%22health-wellness%22%2C%22term_group%22%3A0%2C%22term_taxonomy_id%22%3A7%2C%22taxonomy%22%3A%22product_cat%22%2C%22description%22%3A%22All%20our%20products%20are%20made%20from%20natural%20%26amp%3B%20organic%20aloe%20vera%20plants.%20No%20chemical%20filtration%20or%20dilution.%20Only%20the%20highest%20quality%20aloe%20vera%20extract%20is%20used.%22%2C%22parent%22%3A0%2C%22count%22%3A0%2C%22filter%22%3A%22raw%22%2C%22link%22%3A%22https%3A%5C%2F%5C%2Fwww.aloecure.com%5C%2Fproduct-category%5C%2Fhealth-wellness%5C%2F%22%7D%2C%7B%22term_id%22%3A52%2C%22name%22%3A%22Non%20Good-Better-Best%22%2C%22slug%22%3A%22non-good-better-best%22%2C%22term_group%22%3A0%2C%22term_taxonomy_id%22%3A52%2C%22taxonomy%22%3A%22product_cat%22%2C%22description%22%3A%22%22%2C%22parent%22%3A0%2C%22count%22%3A0%2C%22filter%22%3A%22raw%22%2C%22link%22%3A%22https%3A%5C%2F%5C%2Fwww.aloecure.com%5C%2Fproduct-category%5C%2Fnon-good-better-best%5C%2F%22%7D%2C%7B%22term_id%22%3A8%2C%22name%22%3A%22Skin%20Care%22%2C%22slug%22%3A%22skin-care%22%2C%22term_group%22%3A0%2C%22term_taxonomy_id%22%3A8%2C%22taxonomy%22%3A%22product_cat%22%2C%22description%22%3A%22For%20healthy%2C%20beautiful%20skin%2C%20use%20aloe%20skin%20care%20products.%20Soothe%20inflamed%2C%20irritated%20skin%20or%20burns%20with%20the%20hydrating%20gel%20that%20can%20enhance%20collagen%20and%20hyaluronic%20acid%20for%20a%20rejuvenated%20look.%20All%20our%20products%20are%20made%20from%20organic%20aloe%20vera%20plants%20and%20delicately%20harvested%20to%20protect%20the%20nutritious%20integrity%20of%20the%20leaves.%20We%20never%20use%20chemical%20filtration%20or%20dilution%2C%20only%20the%20highest%20quality%20aloe%20vera%20extract.%22%2C%22parent%22%3A0%2C%22count%22%3A2%2C%22filter%22%3A%22raw%22%2C%22link%22%3A%22https%3A%5C%2F%5C%2Fwww.aloecure.com%5C%2Fproduct-category%5C%2Fskin-care%5C%2F%22%7D%2C%7B%22term_id%22%3A9%2C%22name%22%3A%22Vitality%20Packages%22%2C%22slug%22%3A%22packages%22%2C%22term_group%22%3A0%2C%22term_taxonomy_id%22%3A9%2C%22taxonomy%22%3A%22product_cat%22%2C%22description%22%3A%22All%20our%20products%20are%20made%20from%20natural%20%26amp%3B%20organic%20aloe%20vera%20plants.%20No%20chemical%20filtration%20or%20dilution.%20Only%20the%20highest%20quality%20aloe%20vera%20extract%20is%20used.%22%2C%22parent%22%3A0%2C%22count%22%3A0%2C%22filter%22%3A%22raw%22%2C%22link%22%3A%22https%3A%5C%2F%5C%2Fwww.aloecure.com%5C%2Fproduct-category%5C%2Fpackages%5C%2F%22%7D%2C%7B%22term_id%22%3A14%2C%22name%22%3A%22Wellness%22%2C%22slug%22%3A%22wellness%22%2C%22term_group%22%3A0%2C%22term_taxonomy_id%22%3A14%2C%22taxonomy%22%3A%22product_cat%22%2C%22description%22%3A%22All%20our%20products%20are%20made%20from%20natural%20%26%20organic%20aloe%20vera%20plants.%20No%20chemical%20filtration%20or%20dilution.%20Only%20the%20highest%20quality%20aloe%20vera%20extract%20is%20used.%22%2C%22parent%22%3A0%2C%22count%22%3A2%2C%22filter%22%3A%22raw%22%2C%22link%22%3A%22https%3A%5C%2F%5C%2Fwww.aloecure.com%5C%2Fproduct-category%5C%2Fwellness%5C%2F%22%7D%5D%2C%22homeUrl%22%3A%22https%3A%5C%2F%5C%2Fwww.aloecure.com%5C%2F%22%7D' ) );
+		</script>
+		<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
+</script>
+<link rel='stylesheet' id='et-gf-kreon-css'  href=" "   type='text/css' media='all' />
+<link rel='stylesheet' id='et-gf-open-sans-css'  href=" "   type='text/css' media='all' />
+<link rel='stylesheet' id='et-gf-arvo-css'  href=" "   type='text/css' media='all' />
+<link rel='stylesheet' id='et-gf-lato-css'  href=" "   type='text/css' media='all' />
+<script type='text/javascript' src="frontend.js"  ></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var infusion = {"admin_bar":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src="infusion.js"  ></script>
+<script type='text/javascript' src="jquery.uniform.min.js"  ></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var infusionsoftSettings = {"ajaxurl":"https:\/\/www.aloecure.com\/wp-admin\/admin-ajax.php","pageurl":"https:\/\/www.aloecure.com\/product\/aloevita-water-pure-aloe-leaf\/","stats_nonce":"644175b0c8","subscribe_nonce":"9f999414a1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src="custom.js"  ></script>
+<script type='text/javascript' src="idle-timer.min.js"  ></script>
+<script type='text/javascript' src="jquery.blockUI.min.js"  ></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"https://wp-admin//admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/www.aloecure.com\/cart\/","is_cart":"","cart_redirect_after_add":"yes"};
+/* ]]> */
+</script>
+<script type='text/javascript' src="add-to-cart.min.js"  ></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"","zoom_options":[],"photoswipe_enabled":"","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src="single-product.min.js"  ></script>
+<script type='text/javascript' src="js.cookie.min.js"  ></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"https://wp-admin//admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src="woocommerce.min.js"  ></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"https://wp-admin//admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_de87300be0d8abf47f975fff54e84b4e","fragment_name":"wc_fragments_de87300be0d8abf47f975fff54e84b4e","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src="cart-fragments.min.js"  ></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_swatches_params = {"ajax_url":"https:\/\/www.aloecure.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src="swatches-and-photos.js"  ></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woo_stock_alert_script_data = {"ajax_url":"https://wp-admin//admin-ajax.php","alert_text_html":"<h6 style=\"color:fbfbfb\" class=\"subscribe_for_interest_text\">Notify me when the product is back in stock:<\/h6>","button_html":"<input type=\"button\" style=\"background: #303030; color: #ffffff; border-color: fbfbfb\" class=\"stock_alert_button alert_button_hover\" name=\"alert_button\" value=\"Notify me! \" \/>","alert_success":"Thank you for your interest in %product_title%, you will receive an email alert when it becomes available.","alert_email_exist":"%customer_email% is already subscribed with %product_title%. Please try again.","valid_email":"Please enter a valid email and try again.","processing":"Processing...","error_occurs":"Some error occurs","try_again":"Please try again.","unsubscribe_button":"<button class=\"unsubscribe_button\" style=\"background: #303030; color: #ffffff; border-color: fbfbfb\"><\/button>","alert_unsubscribe_message":"%customer_email% is successfully unsubscribed to notifications."};
+var form_submission_text = {"alert_text_html":"<h6 style=\"color:fbfbfb\" class=\"subscribe_for_interest_text\">Notify me when the product is back in stock:<\/h6>","button_html":"<button style=\"background: #303030; color: #ffffff; border-color: fbfbfb\" class=\"stock_alert_button alert_button_hover\" name=\"alert_button\">Notify me! <\/button>","alert_success":"Thank you for your interest in %product_title%, you will receive an email alert when it becomes available.","alert_email_exist":"%customer_email% is already subscribed with %product_title%. Please try again.","valid_email":"Please enter a valid email and try again.","unsubscribe_button":"<button class=\"unsubscribe_button\" style=\"background: #303030; color: #ffffff; border-color: fbfbfb\"><\/button>","alert_unsubscribe_message":"%customer_email% is successfully unsubscribed to notifications."};
+/* ]]> */
+</script>
+<script type='text/javascript' src="frontend-1.js"  ></script>
+<script type='text/javascript' src="comment-reply.min.js"  ></script>
+<script type='text/javascript' src="scripts.js"  ></script>
+<script type='text/javascript' src="analytics.js"  ></script>
+<script type='text/javascript' src="wp-embed.min.js"  ></script>
+<script type='text/javascript' src="underscore.min.js"  ></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"https://wp-admin//admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src="wp-util.min.js"  ></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination."};
+/* ]]> */
+</script>
+<script type='text/javascript' src="add-to-cart-variation.min.js"  ></script>
+
+		<script async src="t.js"  ></script>
+		<script src="E37226577ED6D0.js"   async defer></script>
+
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/bam.nr-data.net","licenseKey":"7c38733e2f","applicationID":"99414908","transactionName":"MV1VN0JSWUJWAhUIVwgXdgBEWlhfGBIID18KXRoTQlxTRFQV","queueTime":0,"applicationTime":953,"atts":"HRpWQQpISkw=","errorBeacon":"https://www.aloecure.com/product/aloevita-water-pure-aloe-leaf/bam.nr-data.net","agent":""}</script></body>
+      <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '<?echo $_POST['pixel'];?>');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=<?echo $_POST['pixel'];?>&ev=PageView&noscript=1"
+/></noscript>
+<script>
+  fbq('track', 'Lead');
+</script>
+<!-- End Facebook Pixel Code -->
+</html>
